@@ -63,7 +63,7 @@ hr {
     color: #FFFFFF !important;
 }
 /*mobile media query*/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 780px) {
     body {
         background-color: red; 
     }
