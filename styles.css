@@ -65,7 +65,10 @@ hr {
 @media only screen and (max-width: 780px) {
     h1 {
         text-align: left;
-        padding: 1px 1px;
+        margin-bottom: 5%;
+        line-height: 5%;
+        font-size: 400%;
+
     }
 
     body {
