@@ -7,7 +7,7 @@ body {
     font-style: normal;
     color: #FFFFFF;
     text-align: center;
-    width: 500px;
+
     margin: 0 auto;
 }
 
@@ -56,13 +56,15 @@ hr {
     display: inline-block;
     font-size: 16px;
     margin: 10px;
+
+    
 }
 .button:hover{
     background-color: #906373;
     color: #FFFFFF !important;
 }
 /*mobile media query*/
-@media only screen and (max-width: 780px) {
+@media screen and (max-width: 780px) {
     h1 {
         text-align: left;
         margin-bottom: 5%;
@@ -75,6 +77,7 @@ hr {
         display: flex; 
         flex-direction: column;
         justify-content: center;
+        padding: 10px;
     }
     img {
         float: left;
@@ -84,6 +87,39 @@ hr {
     }
     .button {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* desktop media query */
+@media screen and (max-width: 2000px) {
+    h1 {
+        width: auto;
+        text-align: left;
+        margin-bottom: 5%;
+        line-height: 5%;
+        font-size: 400%;
+
+    }
+
+    body {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        font-size: larger;
+    }
+    img {
+        float: left;
+        padding: 5px 5px;
+        height: auto;
+    }
+    .button {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
     }
 }
