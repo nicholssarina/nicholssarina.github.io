@@ -78,10 +78,9 @@ hr {
         padding: 5px 5px;
         width: 50%;
         height: auto;
-
-
-
-
-        
+    }
+    .button {
+        display: flex;
+        justify-content: space-between;
     }
 }
