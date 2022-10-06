@@ -1,19 +1,17 @@
 
 body {
-    background: #1E1E1E 0% 0% no-repeat padding-box;
+    background: #282929 0% 0% no-repeat padding-box;
     opacity: 1;
     /*font-family: proxima-nova, sans-serif;
     font-weight: 400;
     font-style: normal;*/
     color: #FFFFFF;
     text-align: center;
-    margin: 0 auto;
-    overflow: hidden;
+    margin: 0;
 }
 
 nav {
     padding: .5em;
-    position: sticky;
     top: 0;
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-weight: 700;
@@ -22,9 +20,10 @@ nav {
   }
 nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 0;
-    padding: 0;
+    padding-right: 150px;
+    padding-left: 150px;
     list-style: none;
  }
 
@@ -36,8 +35,8 @@ h1 {
     color: #FFFFFF;*/
 }
 .headerimage {
-    margin-top: -100px;
-    width: 900px;
+    margin-top: -150px;
+    width: 1000px;
     height: auto;
     display: block; 
     align-content: center;
@@ -49,8 +48,58 @@ img {
     margin-left: auto;
     margin-right: auto;
     /*border: solid 5px #906373;*/
-    padding: 15px;
-    border-radius: 50%;
+    /*padding: 15px;
+    border-radius: 50%;*/
+}
+  
+ /*.column {
+    flex: 33.33%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100px;
+  }*/
+
+/*.aboutimages {
+    list-style: none;
+    margin: 70;
+    padding: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: -75px -75px;
+  }*/
+
+.aboutgrid {
+    display: grid;
+    gap: 1px;
+    padding-top: 130px;
+    padding-right: 150px;
+    padding-left: 150px;
+    grid-template-columns: 1fr 1fr;
+    float: right;
+
+}
+
+article {
+    font-family: dunbar-text, sans-serif;
+    font-weight: 50px;
+    font-style: normal;
+    text-align: justify;
+    font-size: 25px;
+    color: #FFFFFF;
+
+}
+
+.aboutme {
+    width: 500px;
+    float: right;
+    padding:0 1px 1px 0;
+    width: 650px; 
+    position:relative; 
+    bottom:350px; 
+    right:180px;
 }
 
 a {
@@ -71,12 +120,12 @@ a:hover {
     color: #DABFC9;
 }
 hr {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     border-style: inset;
-    border: 1px solid #477538 ;
+    border: 1px solid #DABFC9 ;
 }
 .button {
     background-color: #FFFFFF; /* Green */
@@ -96,7 +145,8 @@ hr {
     color: #FFFFFF !important;
 }
 /*mobile media query*/
-@media screen and (max-width: 780px) {
+
+/*@media screen and (max-width: 780px) {
     h1 {
         text-align: left;
         margin-bottom: 5%;
@@ -123,7 +173,7 @@ hr {
         flex-direction: column;
         text-align: center;
     }
-}
+}*/
 
 /* desktop media query
 @media screen and (max-width: 2000px) {
