@@ -31,6 +31,9 @@ h1 {
     font-style: normal;
     font-size: 40px;
     color: #FFFFFF;
+    line-height: 1px;
+    position:relative; 
+    top:170px; 
 }
 
 h4 {
@@ -40,6 +43,8 @@ h4 {
     font-size: 15px;
     font-style: normal;
     color: #FFFFFF;
+    position:relative; 
+    top:170px; 
 }
 
 .workimage{
@@ -60,10 +65,9 @@ h4 {
 
 
 .headerimage {
-    margin-top: -150px;
-    width: 1000px;
+    padding-top: 200px;
+    width: 700px;
     height: auto;
-    display: block; 
     align-content: center;
 }
 img {
@@ -81,7 +85,6 @@ img {
     padding-right: 150px;
     padding-left: 150px;
     grid-template-columns: 1fr 1fr;
-
 }
 
 article {
@@ -91,7 +94,6 @@ article {
     text-align: justify;
     font-size: 25px;
     color: #FFFFFF;
-
 }
 
 .aboutme {
@@ -102,6 +104,13 @@ article {
     position:relative; 
     bottom:350px; 
     right:180px;
+}
+
+.contactimage {
+    padding-top: 150px;
+    width: 500px;
+    height: auto;
+    align-content: center;
 }
 
 a {
@@ -121,6 +130,19 @@ a:hover {
     text-decoration: none;
     color: #DABFC9;
 }
+h2 {
+   display: grid; 
+   grid-template-columns: 1fr 1fr;
+   font-family: dunbar-text, sans-serif;
+   font-weight: 400;
+   font-size: 50px;
+   font-style: normal;
+   color: #DABFC9;
+   padding-top: 2px;
+   padding-bottom: 100px;
+   padding-right: 200px;
+   padding-left: 200px;
+}
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -129,18 +151,6 @@ hr {
     border-style: inset;
     border: 1px solid #DABFC9 ;
 }
-.button {
-    background-color: #FFFFFF; /* Green */
-    border-radius: 8px;
-    color: #1E1E1E !important;
-    padding: 15px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px;  
-}
-.button:hover{
-    background-color: #906373;
-    color: #FFFFFF !important;
+input:hover{
+    opacity: 0.5;
 }
