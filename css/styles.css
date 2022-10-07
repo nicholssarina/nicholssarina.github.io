@@ -173,7 +173,7 @@ input:hover{
 
 /*MOBILE LAYOT*/
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:500px) {
 body {
     background: #282929 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -185,8 +185,8 @@ body {
     width: 100px;
     opacity: 1;
     position: relative;
-    top: 190px;
-    left: 155px;
+    top: 175px;
+    left: 150px;
 }
 nav {
     top: 0;
@@ -283,7 +283,7 @@ article {
     padding:0 1px 1px 0;
     width: 300px; 
     top: 10px;
-    left: 90px;
+    left: 70px;
 }
 
 .portrait {
