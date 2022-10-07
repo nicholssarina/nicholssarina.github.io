@@ -173,7 +173,7 @@ input:hover{
 
 /*MOBILE LAYOT*/
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:480px) {
 body {
     background: #282929 0% 0% no-repeat padding-box;
     opacity: 1;
