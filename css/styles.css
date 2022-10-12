@@ -7,6 +7,9 @@ body {
     color: #FFFFFF;
     text-align: center;
     margin: 0;
+    font-family: dunbar-text, sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .logo {
@@ -343,4 +346,18 @@ hr {
 input:hover{
     opacity: 0.5;
 }   
+}
+.button {
+    background-color: #FFFFFF; /* Green */
+    border-radius: 8px;
+    color: #1E1E1E !important;
+    padding: 15px 30px;
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
 }
