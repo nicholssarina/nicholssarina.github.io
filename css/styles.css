@@ -172,6 +172,39 @@ hr {
 input:hover{
     opacity: 0.5;
 }
+button {
+    background-color: #FFFFFF; /* Green */
+    border-radius: 8px;
+    color: #1E1E1E !important;
+    padding: 15px 30px;
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 700;
+    position: relative center;
+    
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+}
+.h2title {
+    font-family: dunbar-text, sans-serif;
+    position: relative center;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    color: #DABFC9;
+ }
+ .msgBox {
+    position: center;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+    width: 242px;
+    border-radius: 10px;
+    background-color: #DABFC9;
+  }
 }
 
 /*MOBILE LAYOT*/
@@ -347,13 +380,15 @@ input:hover{
     opacity: 0.5;
 }   
 }
-.button {
+button {
     background-color: #FFFFFF; /* Green */
     border-radius: 8px;
     color: #1E1E1E !important;
     padding: 15px 30px;
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-weight: 700;
+    position: relative center;
+
     font-style: normal;
     text-align: center;
     text-decoration: none;
@@ -361,3 +396,24 @@ input:hover{
     font-size: 16px;
     margin: 10px;
 }
+h2title {
+    font-family: dunbar-text, sans-serif;
+    position: relative center;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    color: #DABFC9;
+ }
+ .msgBox {
+    font-family: dunbar-text, sans-serif;
+    text-align: center;
+    position: relative;
+    right: 50px;
+    top:20px;
+    font-weight: 400;
+    font-size: 20px;
+    transform: translate(-50%,-50%);
+    width: 242px;
+    border-radius: 10px;
+    background-color: #DABFC9;
+  }

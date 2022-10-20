@@ -34,7 +34,37 @@
         <article>
             <p>I am currently a senior at the University of Colorado at Boulder pursuing a Bachelor of Science in Strategic Communication with an emphasis in Media Design. In addition, I'm dual minoring in Philosophy and Creative Technology & Design.</p> 
             <p>I am greatly passionate about anything and everything creative. when I'm not working—I'm busy painting, listening to my huge record collection, or making music.</p>
-          </article>
+
+            <h2title>TRIVIA TIME</h2title>
+            <button>How many cats do I have?</button>
+
+            <script>
+        
+              const btn = document.querySelector('button');
+              btn.addEventListener('click', () => displayMessage('I have three! Mimi, Bella, and Leia'));
+        
+              function displayMessage(msgText,msgType) {
+                const html = document.querySelector('html');
+        
+                const panel = document.createElement('div');
+                panel.setAttribute('class','msgBox');
+                html.appendChild(panel);
+        
+                const msg = document.createElement('p');
+                msg.textContent = msgText;
+                panel.appendChild(msg);
+        
+                const closeBtn = document.createElement('button');
+                closeBtn.textContent = 'x';
+                panel.appendChild(closeBtn);
+        
+                closeBtn.onclick = function() {
+                  panel.parentNode.removeChild(panel);
+                }
+              }
+            </script>
+        </article>
+
     </div>
 </body>
 </html>
