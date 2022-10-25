@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>JSON: Task 1</title>
+    <style>
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+
+    <section class="preview">
+
+
+
+    </section>
+
+  </body>
+  <script>
+    const section = document.querySelector('section');
+
+    let para1 = document.createElement('p');
+    let para2 = document.createElement('p');
+    let motherInfo = 'The mother cats are called ';
+    let kittenInfo;
+    const requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/tasks/json/sample.json';
+
+    fetch(requestURL)
+    .then(response => response.text())
+    .then(text => displayCatInfo(text))
+
+    function displayCatInfo(catString) {
+      let total = 0;
+      let male = 0;
+
+      // Add your code here
+
+  let catData = JSON.parse(catString);
+  console.log(catString);
+  for (let i=0; i<catData.length; i++) {
+    if(i === catData.length-1) {
+      motherInfo += `and ${catData[i].name}.`
+    } else {
+      motherInfo += `${catData[i].name}, `;
+    }
+    kittenInfo += `${catData[i].name}'s kittens are `
+    let kittens = catData[i].kittens
+    for(let kitten of kittens) {
+      if(kitten === kittens[kittens.length - 1]) {
+        kittenInfo += `and ${kitten.name}. `  
+      } else {
+        kittenInfo += `${kitten.name}, `   
+      }
+      total++;
+      if(kitten.gender === "m") {
+        male++;
+      }
+    }
+  }
+  kittenInfo += `And, in total, there are ${total} kittens. ${male} male and ${total - male} female.`
+    
+
+
+    
+      // Don't edit the code below here!
+
+      para1.textContent = motherInfo;
+      para2.textContent = kittenInfo;
+}
+
+    section.appendChild(para1);
+    section.appendChild(para2);
+  </script>
+
+</html>
+
