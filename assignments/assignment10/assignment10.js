@@ -63,23 +63,16 @@ console.log (JSON.stringify(companyData))
 
 //Q6
 
-//var str = '{"employees":[{"name": "Sam","department": "Tech","designation": "Manager", "salary": ["40000"],"raiseEligible": "true"}]}'
-//var obj = JSON.parse(str);
-//obj['employees'].push({"wfh":"false"});
-//str = JSON.stringify(obj);
-
-
-
 companyData[0].employees.forEach(function (employees){
     if (["Anna", "Sam"].includes(employees.name)) {
         let obj = employees
     
-        obj['wfh'] = 'true';
+        obj["wfh"] = "true";
     }
     else {
         let obj = employees
 
-        obj['wfh'] = 'false';
+        obj["wfh"] = "false";
     }
     
 });
