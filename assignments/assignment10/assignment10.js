@@ -44,7 +44,7 @@ let companyData=
 var totalSalaries = companyData[0].employees.reduce((a, b)=> {
     return a+ parseInt(b.salary[0])
  }, 0);
- console.log(totalSalaries);
+ console.log("Total of Salaries:", totalSalaries);
 
 //Q5
 
