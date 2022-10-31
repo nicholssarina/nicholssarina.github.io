@@ -38,7 +38,7 @@ let companyData=
     ]
    }
   ]
-  console.log(companyData)
+  console.log (JSON.stringify(companyData))
 
 //Q4
 var totalSalaries = companyData[0].employees.reduce((a, b)=> {
@@ -62,3 +62,25 @@ companyData[0].employees.forEach(function (employees){
 console.log (JSON.stringify(companyData))
 
 //Q6
+
+//var str = '{"employees":[{"name": "Sam","department": "Tech","designation": "Manager", "salary": ["40000"],"raiseEligible": "true"}]}'
+//var obj = JSON.parse(str);
+//obj['employees'].push({"wfh":"false"});
+//str = JSON.stringify(obj);
+
+
+
+companyData[0].employees.forEach(function (employees){
+    if (["Anna", "Sam"].includes(employees.name)) {
+        let obj = employees
+    
+        obj['wfh'] = 'true';
+    }
+    else {
+        let obj = employees
+
+        obj['wfh'] = 'false';
+    }
+    
+});
+console.log (JSON.stringify(companyData))
