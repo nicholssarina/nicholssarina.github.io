@@ -1,3 +1,7 @@
+//window.addEventListener ('load',getQuote);
+
+document.addEventListener('load',getQuote);
+
 const quoteButton = document.querySelector('.new-quote');
 quoteButton.addEventListener ('click',getQuote);
 
@@ -26,3 +30,4 @@ function displayQuote(x) {
 
     document.getElementById ('js-quote-text').textContent = x;
 }
+getQuote();
