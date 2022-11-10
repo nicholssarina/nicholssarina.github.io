@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,18 +8,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="assignment12.css">
+    <link rel="stylesheet" href="wa12.css">
     <script defer src="assignment12.js"></script>
 </head>
 <body>
     <div>
-        <p class="output"></p>
+        <p>Please enter your phone number.</p>
+        <p class="output">9999999999</p>
     </div>
     <form>
-        <input class="phone" type="text" id="phone" name="phone" placeholder="Enter a phone number">
-        <input class="button" type="button" name="submit-button" value="Submit">
-
+        <!-- <input class="phone" type="text" id="phone" name="phone" placeholder="Enter a phone number"> -->
+        <input class="minus-button" type="button" name="minus-button" value="-">
+        <input class="plus-button" type="button" name="plus-button" value="+">
+        <input class="reset-button" type="button" name="reset-button" value="Reset">
+        <input class="random-button" type="button" name="random-button" value="Random">
+        <input class="submit-button" type="button" name="submit-button" value="Submit">
         
     </form>
+    <div>
+        <div class="slidecontainer">
+            <p>Enter your phone number</p>
+            <input type="range" min="0" max="9999999999" value="8888888888" class="slider" id="myRange">
+            <input class="slider-submit-button" type="button" name="slider-submit-button" value="Submit">
+            <p class="slider-output"></p>
+          </div>
+        </div>
 </body>
 </html>
