@@ -280,7 +280,7 @@ ul{
     }
  }
 
- @media screen and (max-width:600px) and (min-height:150px) {
+ @media screen and (max-width:450px) and (min-height:150px) {
     #home.card {
         top: 550px;
         position: absolute;
