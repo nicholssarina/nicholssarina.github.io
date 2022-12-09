@@ -99,7 +99,7 @@ img {
 }
 article {
     font-family: dunbar-text, sans-serif;
-    font-weight: 50px;
+    font-weight: 50;
     font-style: normal;
     text-align: justify;
     font-size: 25px;
@@ -179,7 +179,7 @@ button {
     padding: 15px 30px;
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-weight: 700;
-    position: relative center;
+    position: relative;
     
     font-style: normal;
     text-align: center;
@@ -190,14 +190,13 @@ button {
 }
 .h2title {
     font-family: dunbar-text, sans-serif;
-    position: relative center;
+    position: relative;
     font-weight: 400;
     font-size: 50px;
     font-style: normal;
     color: #DABFC9;
  }
  .msgBox {
-    position: center;
     left: 50%;
     bottom: 50%;
     transform: translate(-50%,-50%);
@@ -309,7 +308,7 @@ img {
 }
 article {
     font-family: dunbar-text, sans-serif;
-    font-weight: 50px;
+    font-weight: 50;
     font-style: normal;
     text-align: justify;
     font-size: 15px;
@@ -387,7 +386,7 @@ button {
     padding: 15px 30px;
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-weight: 700;
-    position: relative center;
+    position: relative;
 
     font-style: normal;
     text-align: center;
@@ -396,9 +395,9 @@ button {
     font-size: 16px;
     margin: 10px;
 }
-h2title {
+.h2title {
     font-family: dunbar-text, sans-serif;
-    position: relative center;
+    position: relative;
     font-weight: 400;
     font-size: 50px;
     font-style: normal;
