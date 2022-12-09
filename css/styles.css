@@ -17,6 +17,14 @@ body {
     width: 1px;
 }
 
+header {
+    width: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 nav {
     padding: .5em;
     top: 0;

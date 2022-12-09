@@ -1,5 +1,5 @@
 const gridSize = 4
-const cellSize = 20
+const cellSize = 12
 const cellGap = 2
 
 export default class Grid {
@@ -105,6 +105,7 @@ class Cell {
         this.mergeTile = null
       }
     }
+
 
 function createCellElements(gridElement) {
     const cells = []

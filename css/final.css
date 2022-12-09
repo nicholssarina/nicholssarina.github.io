@@ -1,15 +1,16 @@
 *, * ::before, *::after {
-   box-sizing: border-box; 
+  /* box-sizing: border-box; */
    font-family: itc-avant-garde-gothic-pro, sans-serif;
 }
 
 body {
-    background-color: #333;
+    margin: auto;
+    background-color: #282828;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-size: 7.5vmin;
+   /* font-size: 7.5vmin;*/
 }
 #game-board {
     display: grid;
@@ -45,8 +46,45 @@ body {
      animation: show 200ms ease-in-out;
      transition: 100ms ease-in-out;
  
- 
  }
+
+nav {
+    width: 200%;
+    padding: .5em;
+    top: 0;
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+nav ul {
+    align-items: center;
+    font-size: 15px;
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    list-style: none;
+ }
+
+
+a {
+    text-decoration: none;
+    font-size: 150%;
+}
+a:link{
+    text-decoration: none;
+    color: #DABFC9;
+}
+a:visited {
+    text-decoration: none;
+    /*color: #637E5A;*/
+    color: #FFFFFF;
+}
+a:hover {
+    text-decoration: none;
+    color: #DABFC9;
+}
 
 @keyframes show {
     0% {
