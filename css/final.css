@@ -135,13 +135,13 @@ a:hover {
     position: relative;
     top: 20px;
     font-family: itc-avant-garde-gothic-pro, sans-serif;
-    font-weight: 20px;
+    font-weight: 200;
 }
 
 button {
     position: relative;
     top: 30px;
-    font-weight: 300px;
+    font-weight: 300;
     background-color: #FFFFFF;
     outline: none;
     font-size: 18px;
