@@ -557,14 +557,6 @@ figure {
     margin: 10px;
 }
 
-.finalTitle{
-    position: relative;
-    align-content: center;
-    font-family: itc-avant-garde-gothic-pro,sans-serif;
-    font-weight: 700;
-    bottom: 20vw;
-    font-size: 5vw;
-}
 
 /*MOBILE LAYOUT*/
 
@@ -740,8 +732,8 @@ input:hover{
     opacity: 0.5;
 }   
 }
-button {
-    background-color: #FFFFFF; /* Green */
+/*button {
+    background-color: #FFFFFF; /* Green 
     border-radius: 8px;
     color: #1E1E1E !important;
     padding: 15px 30px;
@@ -755,7 +747,7 @@ button {
     display: inline-block;
     font-size: 16px;
     margin: 10px;
-}
+}*/
 .h2title {
     font-family: dunbar-text, sans-serif;
     position: relative;

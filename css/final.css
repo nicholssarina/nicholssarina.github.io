@@ -5,7 +5,7 @@
 
 body {
     margin: auto;
-    background-color: #282828;
+    background-image: url("../midtermimages/galaxy.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@ body {
 }
 
 .cell {
-    background-color: #aaa;
+    background-color: #282829;
     border-radius: 1vmin;
 }
 
@@ -107,13 +107,48 @@ a:hover {
     height: 300px;
     background: #DABFC9;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 9.5vw;
+    right: 15.5vw;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #282828;
-
+    border-radius: 10px;
 } 
+
+.popup img{
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+
+.text {
+    position: relative;
+    top: 15px;
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 700;
+    color: #282829;
+    font-size: 30px;
+}
+
+.smalltext {
+    position: relative;
+    top: 20px;
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 20px;
+}
+
+button {
+    position: relative;
+    top: 30px;
+    font-weight: 300px;
+    background-color: #FFFFFF;
+    outline: none;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+}
 
 @keyframes show {
     0% {

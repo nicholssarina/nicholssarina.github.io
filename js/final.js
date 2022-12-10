@@ -56,7 +56,7 @@ async function handleInput (e) {
 
     if (!canMoveUp() && !canMoveDown() && !canMoveRight() && !canMoveLeft()) {
         newTile.waitForTransition(true).then(() => {
-            alert("You lose")
+            alert("You lose! Try again!")
         })
         return
     }
