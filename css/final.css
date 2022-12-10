@@ -12,16 +12,33 @@ body {
     height: 100vh;
    /* font-size: 7.5vmin;*/
 }
+
+.finalTitle{
+    position: relative;
+    align-content: center;
+    font-family: itc-avant-garde-gothic-pro,sans-serif;
+    font-weight: 700;
+    left: 15vw;
+    bottom: 16vw;
+    font-size: 5vw;
+    color: #DABFC9;
+}
+#game {
+    position: relative;
+    top:5vw;
+    right: 25.5vw;
+}
 #game-board {
     display: grid;
     grid-template-columns: repeat(var(--grid-size),var(--cell-size));
     grid-template-rows: repeat(var(--grid-size),var(--cell-size));
    /* grid-template-rows: repeat(4,20);*/
-    background-color: #ccc ;
+    background-color: #FFFFFF ;
     gap: var(--cell-gap);
     border-radius: 1vmin;
     padding: var(--cell-gap);
     position: relative;
+
 }
 
 .cell {
@@ -36,13 +53,12 @@ body {
      align-items: center;
      width: var(--cell-size);
      height: var(--cell-size);
-     background-color: red;
      border-radius: 1vmin;
      top: calc(var(--y)* (var(--cell-size) + var(--cell-gap))  + var(--cell-gap));
      left: calc(var(--x)* (var(--cell-size) + var(--cell-gap))  + var(--cell-gap));
      font-weight: bold;
-     background-color: hsl(200,50%,var(--background-brightness));
-     color: hsl(200,25%,var(--text-brightness));
+     background-color: hsl(297,70%,var(--background-brightness));
+     color: hsl(300,25%,var(--text-brightness));
      animation: show 200ms ease-in-out;
      transition: 100ms ease-in-out;
  
@@ -85,6 +101,19 @@ a:hover {
     text-decoration: none;
     color: #DABFC9;
 }
+
+.popup {
+    width: 400px;
+    height: 300px;
+    background: #DABFC9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #282828;
+
+} 
 
 @keyframes show {
     0% {
