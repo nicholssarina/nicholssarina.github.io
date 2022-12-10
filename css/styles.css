@@ -106,7 +106,18 @@ h4 {
     font-size: 50px;
     font-weight: 700;
 }
-
+.title {
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+    bottom: 40px;
+}
+.titleTwo {
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+    bottom: 10px;
+}
 .explanation {
     position: relative;
     bottom: 70px;
@@ -243,6 +254,11 @@ button {
     position: relative;
     bottom: 70px;
 }
+
+.containerTwo {
+    position: relative;
+    bottom: 30px;
+}
 .artwork {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -372,6 +388,13 @@ button {
     grid-row-start: 10;
     grid-row-end: 15;
   
+}
+
+.boldLogo {
+    position: relative;
+    align-content: center;
+    padding-bottom: 50px;
+    width: 50%;
 }
 figure {
     margin: 10px;
