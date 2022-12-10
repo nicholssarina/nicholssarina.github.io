@@ -27,16 +27,33 @@
           <li>
             <a href="hobbies.html">HOBBIES</a>
             <li>
-              <a href="final.html">LUNAR 2048</a>
+              <a href="final.html">2048</a>
             </li>
         </ul>
       </nav>
       <img src="../midtermimages/contact.png" alt="Image reading REACH OUT" class="contactimage">
-      <h2 class="phonenumber">
-        720-867-5309
-    </h2>
-    <h2 class="email">
-      nichols.sarina@gmail.com
-  </h2>
+      <div class="containerContact">
+        <form action="thankyou.html">
+      
+          <label for="fname">FIRST NAME</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">LAST NAME</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">COUNTRY</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">SUBJECT</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 </body>
 </html>
