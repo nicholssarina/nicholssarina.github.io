@@ -69,6 +69,39 @@ a:hover {
 .title {
     color: #6F706E;
 }
+
+.nameRed {
+    color: #951717;
+}
+.titleRed {
+    color: #951717B3;
+}
+
+.nameGreen {
+    color: #083613;
+}
+.titleGreen {
+    color: #083613CC;
+}
+.nameYellow {
+    color: #231F20;
+}
+.titleYellow {
+    color: #231F20CC;
+}
+.nameMagenta {
+    color: #4E0C32;
+}
+.titleMagenta {
+    color: #4E0C32CC;
+}
+.nameTeal {
+    color: #0F5E69;
+}
+.titleTeal {
+    color: #0F5E69CC;
+}
+
 img {
     width: 1400px;
     border-radius: 25px;
@@ -86,6 +119,7 @@ img {
     line-height: 5px;  
     letter-spacing: .5px;
 }
+
 
 .diabloContainer {
     position: relative;
@@ -215,7 +249,7 @@ img {
   }
 
 .ritual {
-    font-size: 190px;
+    font-size: 188px;
 }
 .drink {
     font-size: 220px;
