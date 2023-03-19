@@ -1,7 +1,4 @@
 
-
-@media screen and 
-(min-width:1025px),(max-width:1280px) {
 body {
     /* UI Properties */
     background: #EEEFEC 0% 0% no-repeat padding-box;
@@ -18,13 +15,20 @@ header {
     left: 0;
     right: 0;
 }
+.navcontainer {
+    background-color: #EEEFEC;
+    width: 100%;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
 
 nav {
     padding: .5em;
     top: 0;
-    font-family: new-kansas, sans-serif;
+    font-family: "new-kansas", sans-serif;
     color: #000000;
-    font-weight: 400;
+    font-weight: 200;
+    font-size: 2vw;
     font-style: normal;
     margin-top: 50px;
   }
@@ -53,13 +57,12 @@ a:hover {
     text-decoration: none;
     color: #6F706E;
 }
-}
 .homepage {
     position: relative;
-    font-family: gigantic, sans-serif;
+    font-family: "gigantic", sans-serif;
     font-style: normal;
-    font-weight: 1000;
-    font-size: 180px;
+    font-weight: 900;
+    font-size: 12vw;
     text-align: left;
     padding-left: 60px;
     padding-top: 0px;
@@ -104,8 +107,9 @@ a:hover {
     color: #0F5E69CC;
 }
 
-img {
-    width: 1400px;
+.workpic {
+    width: 100%;
+    max-width: 1400px;
     border-radius: 25px;
 }
 
@@ -114,13 +118,14 @@ img {
     font-family: "gigantic", sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 4vw;
     text-align: left;
-    padding-left: 80px;
-    padding-top: 10px;
-    padding-bottom: 40px;
-    line-height: 5px;  
-    letter-spacing: .5px;
+    padding-left: 5vw;
+    padding-top: .15vw;
+    padding-bottom: 3vw;
+    line-height: .05em;  
+    letter-spacing: .03em;
+    
 }
 
 
@@ -128,8 +133,12 @@ img {
     position: relative;
     text-align: left;
     color: white;
-    left: 50px;
-    padding: 10px 10px 10px 10px;
+    left: 2em;
+    padding-bottom: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .diabloTitle {
@@ -137,11 +146,12 @@ img {
     font-family: "gigantic", sans-serif;
     font-style: normal;
     font-weight: 900;
-    text-align: center;
+    text-align: left;
     color: white;
-    line-height: 165px;
-    bottom: 20px;
-    left: 40px;
+    line-height: 10vw;
+    bottom: 3vw;
+    left: 4vw;
+
 }
 .overlay {
     position: absolute;
@@ -160,30 +170,31 @@ img {
   }
 
 .dFour {
-    font-size: 180px;
+    font-size: 11vw;
 }
 .jumpscares {
-    font-size: 130px;
+    font-size: 8vw;
 }
 
 .spotifyContainer {
     position: relative;
     text-align: left;
     color: white;
-    left: 50px;
-    padding: 10px 10px 10px 10px;
+    left: 2em;
+    padding: .5em;
+    display: flex;
+    flex-wrap: wrap;
 }
 .spotifyTitle {
     position: absolute;
     font-family: "gigantic", sans-serif;
     font-style: normal;
     font-weight: 900;
-    text-align: center;
+    text-align: left;
     color: white;
-    line-height: 160px;
-    bottom: 20px;
-    left: 40px;
-    text-align: left;  
+    line-height: 10vw;
+    bottom: 3vw;
+    left: 4vw;
 }
 
   .spotifyContainer:hover .overlay{
@@ -191,17 +202,19 @@ img {
   }
 
 .spotify{
-    font-size: 175px;
+    font-size: 11vw;
 }
 .university {
-    font-size: 120px;
+    font-size: 8vw;
 }
 .modfiContainer {
     position: relative;
     text-align: left;
     color: white;
-    left: 50px;
-    padding: 10px 10px 10px 10px;
+    left: 2em;
+    padding: .5em;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .modfiTitle {
@@ -211,10 +224,9 @@ img {
     font-weight: 900;
     text-align: left;
     color: white;
-    line-height: 180px;
-    bottom: 40px;
-    left: 40px;
-    text-align: left;  
+    line-height: 12vw;
+    bottom: 3vw;
+    left: 4vw;
 }
 
 .modfiContainer:hover .overlay{
@@ -222,21 +234,23 @@ img {
   }
 
 .mod {
-    font-size: 170px;
+    font-size: 11vw;
 }
 .fidelity {
-    font-size: 170px;
+    font-size: 11vw;
 }
 .sandt {
-    font-size: 77px;
-    line-height: 80px;
+    font-size: 5vw;
+    line-height:6vw;
 }
 .ritualContainer {
     position: relative;
     text-align: left;
     color: white;
-    left: 50px;
-    padding: 10px 10px 10px 10px;
+    left: 2em;
+    padding: .5em;
+    display: flex;
+    flex-wrap: wrap;
 }
 .ritualTitle {
     position: absolute;
@@ -245,10 +259,9 @@ img {
     font-style: normal;
     text-align: left;
     color: white;
-    line-height: 220px;
-    bottom: 40px;
-    left: 40px;
-    text-align: left;  
+    line-height: 14vw;
+    bottom: 3vw;
+    left: 4vw;
 }
 
 .ritualContainer:hover .overlay{
@@ -256,21 +269,23 @@ img {
   }
 
 .ritual {
-    font-size: 188px;
+    font-size: 12vw;
 }
 .drink {
-    font-size: 220px;
+    font-size: 14vw;
 }
 .toRem {
-    font-size: 95px;
-    line-height: 95px;
+    font-size: 6vw;
+    line-height: 8vw;
 }
 .CODContainer {
     position: relative;
     text-align: left;
     color: white;
-    left: 50px;
-    padding: 10px 10px 10px 10px;
+    left: 2em;
+    padding: .5em;
+    display: flex;
+    flex-wrap: wrap;
 }
 .CODTitle {
     position: absolute;
@@ -279,38 +294,37 @@ img {
     font-weight: 900;
     text-align: left;
     color: white;
-    line-height: 150px;
-    bottom: 10px;
-    left: 40px;
-    text-align: left;  
+    line-height: 10vw;
+    bottom: 3vw;
+    left: 4vw;
 }
 .CODContainer:hover .overlay{
     opacity: 1;
   }
 
 .call {
- font-size: 130px;
- line-height: 160px;
+ font-size: 8vw;
+
 }
 
 .ofDuty {
- font-size: 130px;
- line-height: 120px;
+ font-size:8.25vw;
+ line-height: 9vw;
 }
 
 .warzone {
- font-size: 109px;
- line-height: 150px;
+ font-size: 6.75vw;
+ line-height: 8vw;
 }
 
 .safe {
- font-size: 208px;
- line-height: 200px;
+ font-size: 13vw;
+ line-height: 14vw;
 }
 
 .zones {
- font-size: 165px;
- line-height: 195px;
+ font-size: 10.25vw;
+ line-height: 12vw;
 }
 
 .diablopPageContainer {
@@ -320,3 +334,74 @@ img {
     width: 80%;
 
 }
+
+/* Beginning of Diablo CSS*/
+.diabloPageContainer {
+    background: #B057561C 0% 0% no-repeat padding-box;
+    width: 100%;
+    margin-top: 3vw;
+    padding-bottom: 225vw;
+}
+.diabloJumpScares {
+    position: absolute;
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    align-content: center;
+
+    padding-bottom: 10vw;
+}
+
+.deeb{
+    font-size: 12vw;
+    color: #951717;
+    line-height: .1vw;
+}
+
+.jumpy {
+    position: relative;
+    font-size: 8vw;
+    color: #951717;
+    line-height:.1vw;
+}
+.diabloHeaderImage {
+    width: 100%;
+    height: 100%;
+    margin-top: -6.5vw;
+}
+.diabloExplanationTitle {
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    color: #951717;
+    font-size: 10vw;
+    padding-left: -2vw;
+}
+.diabloExplanation {
+    font-family: "new-kansas", sans-serif;
+    font-weight: 200;
+    font-size: 3vw;
+    color:#951717;
+    text-align: left;
+    padding-left: 2vw;
+}
+.campaignExplanationContainer {
+    margin: 5vw;
+    padding: 2vw;
+    border-width: .25vw;
+    border-style: solid;
+    border-color: #951717;
+    border-radius: 25px;
+}
+.casestudy {
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 10vw;
+    color:#951717;
+    padding-top: -1vw;
+}
+
+ .videoContainer {
+    width: 100%;
+    height: 90vh;
+ }
