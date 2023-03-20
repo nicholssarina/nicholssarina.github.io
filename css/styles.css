@@ -327,13 +327,6 @@ a:hover {
  line-height: 12vw;
 }
 
-.diablopPageContainer {
-    background-color: red;
-    padding: 20px;
-    margin: 0 auto;
-    width: 80%;
-
-}
 
 /* Beginning of Diablo CSS*/
 .diabloPageContainer {
@@ -405,3 +398,95 @@ a:hover {
     border-radius: 25px;
     width: 90vw;
  }
+ /* Beginning of Spotify University CSS*/
+
+ .spotifyPageContainer {
+    position: relative;
+    background: #08361324 0% 0% no-repeat padding-box;
+    width: 100%;
+    margin-top: 3vw;
+    overflow: hidden;
+}
+.spotifyUniversityTitle {
+    position: relative;
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    padding-left: 5vw;
+    padding-top: 5vw;
+}
+
+.spotifyOne{
+    position: absolute;
+    font-size: 14vw;
+    color: #083613;
+    top: 50%;
+    z-index: 2;
+}
+
+.universityOne{
+    position: absolute;
+    font-size: 9.8vw;
+    color: #083613;
+    line-height: 45vw;
+    z-index: 3;
+}
+
+.spotifyHeaderImage {
+    position: absolute;
+    max-width: 200vw;
+    max-height: 200vh;
+    left: -15vw;
+    right: 15vw;
+    overflow: hidden;
+    opacity: .5;
+    z-index: 1;
+
+}
+.oneClubWinnerContainer{
+    position: relative;
+    margin-top: 30vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
+    padding: 5vw;
+    border-width: .25vw;
+    border-style: solid;
+    border-color: #083613;
+    border-radius: 25px;
+    z-index: 5;
+}
+.oneClubText {
+    position: relative;
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    font-size: 6vw;
+    text-align: left;
+    line-height: 6.5vw;
+    color: #2F2F34;
+    z-index: 4;
+
+}
+.campaignSpotifyExplanationContainer {
+    margin: 5vw;
+    padding: 2vw;
+    border-width: .25vw;
+    border-style: solid;
+    border-color: #951717;
+    border-radius: 25px;
+    z-index: 4;
+}
+.casestudy {
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 10vw;
+    color:#951717;
+    padding-top: -1vw;
+}
+ video {
+    border-radius: 25px;
+    width: 90vw;
+ }
+
+ 
