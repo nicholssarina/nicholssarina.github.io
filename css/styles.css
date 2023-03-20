@@ -398,6 +398,11 @@ a:hover {
     border-radius: 25px;
     width: 90vw;
  }
+ 
+ video {
+    border-radius: 25px;
+    width: 90vw;
+ }
  /* Beginning of Spotify University CSS*/
 
  .spotifyPageContainer {
@@ -465,26 +470,45 @@ a:hover {
     line-height: 6.5vw;
     color: #2F2F34;
     z-index: 4;
-
 }
-.campaignSpotifyExplanationContainer {
+
+.spotifyExplanationContainer {
+    position: relative;
     margin: 5vw;
     padding: 2vw;
     border-width: .25vw;
     border-style: solid;
-    border-color: #951717;
+    border-color: #083613;
     border-radius: 25px;
     z-index: 4;
 }
-.casestudy {
+
+.spotifyExplanationTitle {
+    position: relative;
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    color: #083613;
+    font-size: 10vw;
+    padding-left: -2vw;
+}
+
+.spotifyExplanation {
+    position: relative;
+    font-family: "new-kansas", sans-serif;
+    font-weight: 200;
+    font-size: 3vw;
+    color:#083613;
+    text-align: left;
+    padding-left: 2vw;
+}
+
+.casestudySpotify {
+    position: relative;
     font-family: "gigantic", sans-serif;
     font-weight: 900;
     font-style: normal;
     font-size: 10vw;
-    color:#951717;
+    color:#083613;
     padding-top: -1vw;
+    z-index: 6;
 }
- video {
-    border-radius: 25px;
-    width: 90vw;
- }
