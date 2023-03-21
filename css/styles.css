@@ -17,7 +17,7 @@ header {
 }
 .navcontainer {
     background-color: #EEEFEC;
-    width: 100%;
+
     padding-top: 1vw;
     padding-bottom: 1vw;
 }
@@ -27,7 +27,7 @@ nav {
     top: 0;
     font-family: "new-kansas", sans-serif;
     color: #000000;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 2vw;
     font-style: normal;
     margin-top: 50px;
@@ -124,8 +124,7 @@ a:hover {
     padding-top: .15vw;
     padding-bottom: 3vw;
     line-height: .05em;  
-    letter-spacing: .03em;
-    
+    letter-spacing: .04em;
 }
 
 
@@ -398,7 +397,7 @@ a:hover {
     border-radius: 25px;
     width: 90vw;
  }
- 
+
  video {
     border-radius: 25px;
     width: 90vw;
@@ -511,4 +510,154 @@ a:hover {
     color:#083613;
     padding-top: -1vw;
     z-index: 6;
+}
+.titlesSpotify {
+    position: relative;
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 10vw;
+    color:#083613;
+    padding-top: 5vw;
+    padding-left: 17vw;
+    z-index: 6;
+    text-align: left;
+    line-height: 11vw;
+    justify-content: center;
+    align-items: center;
+}
+.titlesSpotifyCC {
+    position: relative;
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 9vw;
+    color:#083613;
+    padding-top: -1vw;
+    padding-left: 6vw;
+    z-index: 6;
+    text-align: left;
+    line-height: 10vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.iphoneMockup {
+    width: 90vw;
+}
+
+.curriculumCoversGridOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    gap: 6vw;
+    padding-top: 5vw;
+
+}
+.curriculumCoversGridOne img {
+    width: 35vw;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 3vw 4vw 4vw #00000029;
+}
+.curriculumCoversGridTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    gap: 6vw;
+    padding-top: 5vw;
+}
+.curriculumCoversGridTwo img {
+    width: 35vw;
+    height: auto;
+    border-radius: 10p;
+    box-shadow: 3vw 4vw 4vw #00000029;
+}
+.curriculumCoversGridThree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    gap: 6vw;
+    padding-top: 5vw;
+}
+.curriculumCoversGridThree img {
+    width: 35vw;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 3vw 4vw 4vw #00000029;
+}
+.curriculumCoversGridFour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    gap: 6vw;
+    padding-top: 5vw;
+}
+.curriculumCoversGridFour img {
+    width: 35vw;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 3vw 4vw 4vw #00000029;
+}
+.curriculumCoversGridFive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    gap: 6vw;
+    padding-top: 5vw;
+}
+.curriculumCoversGridFive img {
+    width: 35vw;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 3vw 4vw 4vw #00000029;
+}
+
+.iphoneMockup {
+    -webkit-filter: drop-shadow(3vw 4vw 4vw #00000029);
+    filter: drop-shadow(3vw 4vw 4vw #00000029);
+}
+.titlesSpotifyOOH {
+    position: relative;
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 9vw;
+    color:#083613;
+    padding-top: -1vw;
+    padding-left: 6vw;
+    z-index: 6;
+    text-align: left;
+    line-height: 10vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.oohImgOne img {
+    width: 70vw;
+    border-radius: 25px;
+    box-shadow: 3vw 4vw 4vw #00000029;
+    margin-top: 5vw;
+}
+.oohImgTwo img {
+    width: 70vw;
+    border-radius: 25px;
+    box-shadow: 3vw 4vw 4vw #00000029;
+    margin-top: 5vw;
+    margin-bottom: 20vw;
 }
