@@ -4,11 +4,8 @@ body {
     background: #EEEFEC 0% 0% no-repeat padding-box;
     opacity: 1;
     text-align: center;
-    margin-top: 0;
-    margin-bottom:0;
-    margin-right: 30px;
-    margin-left: 0;
     overflow-x: hidden;
+    margin: 0;
 }
 
 header {
@@ -125,7 +122,8 @@ a:hover {
     display: flex;
     padding: 0;
     box-sizing: border-box;
-    margin-left: -30px;
+    margin-left: -45px;
+    margin-right: 70px;
 }
 .logo {
     position: relative;
@@ -750,7 +748,7 @@ a:hover {
     border-width: .25vw;
     border-style: solid;
     border-color: #F9D754;
-    border-radius: 50px;
+    border-radius: 25px;
 }
 .modfiExplanationTitle {
     position: relative;
