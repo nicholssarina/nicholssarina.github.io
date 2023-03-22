@@ -684,6 +684,7 @@ a:hover {
     margin-top: 3vw;
     overflow: hidden;
     padding-bottom: 200vw;
+    overflow-x: hidden;
 }
 .modFidelityTitle {
     position: relative;
