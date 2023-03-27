@@ -135,7 +135,7 @@ a:hover {
     padding-left: 3vw;
     padding-top: .15vw;
     padding-bottom: 3vw;
-    line-height: .05vw;  
+    line-height: .2vw;  
     letter-spacing: .05vw;
 }
 
@@ -766,4 +766,67 @@ a:hover {
     color:#F9D754;
     text-align: left;
     padding-left: 2vw;
+}
+
+.aboutGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    gap: 2vw;
+    padding-top: 5vw;
+    
+}
+.helloThere {
+    font-family: "gigantic", sans-serif;
+    font-size: 12vw;
+    color: black;
+    line-height: .5vw;
+}
+
+.aboutImage img {
+    width: 20vw;
+    border-radius: 12.5vw 12.5vw 2vw 2vw;
+    border: .1vw solid black;
+    padding: 1vw;
+}
+
+.aboutExplanationContainer {
+    position: relative;
+    margin: 5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+    border-width: .25vw;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+}
+.aboutTitle {
+    position: relative;
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    color: black;
+    font-size: 8vw;
+    text-align: left;
+}
+.aboutExplanation {
+    position: relative;
+    font-family: "new-kansas", sans-serif;
+    font-weight: 200;
+    font-size: 3vw;
+    color: black;
+    text-align: left;
+    padding-left: 2vw;
+    text-align: left;
+}
+.aboutPageContainer {
+    position: relative;
+    background: #90828719 0% 0% no-repeat padding-box;
+    width: 100%;
+    margin-top: 3vw;
+    overflow: hidden;
 }
