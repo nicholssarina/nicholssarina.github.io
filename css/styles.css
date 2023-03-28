@@ -843,7 +843,7 @@ a:hover {
 
  .carousel {
     width: auto;
-    margin: 0;
+    margin: 3vw;
     height: 45vw;
     position: relative;
     display: inline-block;
@@ -870,13 +870,6 @@ a:hover {
     opacity: 1;
   }
   
-  .carousel-nav {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
   .carousel-nav button {
     width: 100%;
     background: none;
@@ -886,14 +879,28 @@ a:hover {
     color: black;
     padding: 10px;
     cursor: pointer;
-    gap: 30vw;
-    letter-spacing: 20vw;
   }
   
   .carousel-nav button:hover {
     color: #6F706E;
   }
 
+  .carousel-nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
   .prevButton {
-    padding-left: 3vw;
+    position: absolute;
+    top: 50%;
+    left: -35vw;
+    transform: translateY(-50%);
+  }
+  .nextButton {
+    position: absolute;
+    top: 50%;
+    right: -23.5vw;
+    transform: translateY(-50%);
   }
