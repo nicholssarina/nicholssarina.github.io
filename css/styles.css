@@ -798,7 +798,7 @@ a:hover {
     margin: 5vw;
     padding-left: 3vw;
     padding-right: 3vw;
-    padding-top: 6vw;
+    padding-top: 3vw;
     padding-bottom: 6vw;
     border-width: .25vw;
     border-style: solid;
@@ -812,6 +812,7 @@ a:hover {
     color: black;
     font-size: 8vw;
     text-align: left;
+    padding-left: 2vw;
 }
 .aboutExplanation {
     position: relative;
@@ -830,3 +831,69 @@ a:hover {
     margin-top: 3vw;
     overflow: hidden;
 }
+
+.creationsTitle {
+    font-family: "gigantic",sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 10vw;
+    line-height: 10.5vw;
+}
+ /* ABOUT CSS*/
+
+ .carousel {
+    width: auto;
+    margin: 0;
+    height: 45vw;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .carousel img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: auto;
+    max-height: 40vw;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    border-radius: 2vw;
+    border: solid black .1vw;
+    padding: 1vw;
+  }
+  .eyesDrawing {
+    width: 10vw;
+  }
+  .carousel img.active {
+    opacity: 1;
+  }
+  
+  .carousel-nav {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .carousel-nav button {
+    width: 100%;
+    background: none;
+    border: none;
+    font-family: "new-kansas",sans-serif;
+    font-size: 20vw;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    gap: 30vw;
+    letter-spacing: 20vw;
+  }
+  
+  .carousel-nav button:hover {
+    color: #6F706E;
+  }
+
+  .prevButton {
+    padding-left: 3vw;
+  }
