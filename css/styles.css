@@ -31,6 +31,7 @@ nav {
     font-size: 1.25vw;
     font-style: normal;
     margin-top: 50px;
+    cursor: pointer;
   }
   
   @media (max-width: 600px) { 
@@ -51,23 +52,28 @@ nav ul {
     padding-right: 10vw;
     padding-left: 10vw;
     list-style: none;
+    cursor: pointer;
  }
 a {
     text-decoration: none;
     font-size: 150%;
+    cursor: pointer;
 }
 a:link{
     text-decoration: none;
     color: #000;
+    cursor: pointer;
 }
 a:visited {
     text-decoration: none;
     /*color: #637E5A;*/
     color: #000;
+    cursor: pointer;
 }
 a:hover {
     text-decoration: none;
     color: #6F706E;
+    cursor: pointer;
 }
 .homepage {
     position: relative;
@@ -125,6 +131,7 @@ a:hover {
     border-radius: 25px;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .workContainer a {
@@ -136,6 +143,7 @@ a:hover {
     box-sizing: border-box;
     margin-left: -40px;
     margin-right: 70px;
+    cursor: pointer;
 }
 .logo {
     position: relative;
@@ -184,10 +192,12 @@ a:hover {
     right: 0;
     opacity: 0;
     transition: .5s ease;
+    cursor: pointer;
   }
   
   .diabloContainer:hover .overlay {
     opacity: 1;
+    cursor: pointer;
   }
 
 .dFour {
@@ -1219,8 +1229,8 @@ a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: auto;
-    max-height: 40vw;
+    max-width: 70vw;
+    max-height: auto;
     opacity: 0;
     transition: opacity 1s ease-in-out;
     border-radius: 2vw;
