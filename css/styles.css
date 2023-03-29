@@ -681,7 +681,7 @@ a:hover {
     width: 100%;
     margin-top: 3vw;
     overflow: hidden;
-    padding-bottom: 200vw;
+    padding-bottom: 20vw;
     overflow-x: hidden;
 }
 .modFidelityTitle {
@@ -785,12 +785,10 @@ a:hover {
     justify-content: center;
     align-items: center;
     width: 90vw;
-    height: 45vw;
-    margin: auto;
+    height: 35vw;
+    margin: 6vw;
     gap: 2vw;
 }
-
-
 
 .modfiLogo img {
     width: 30vw;
@@ -819,6 +817,47 @@ a:hover {
     line-height: 4vw;
     top: 11.5vw; 
 }
+.corporateTitle {
+    font-family: "gigantic",sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 10vw;
+    line-height: 10.5vw;
+    color: #F9D756;
+    text-align: left;
+    padding-left: 4.5vw; 
+}
+.businessCard {
+    width: 80vw;
+    border-radius: 4vw;
+    margin: 2vw;
+}
+
+.vanOne, .vanTwo, .vanThree {
+    border-radius: 4vw;
+    position: relative;
+    width: 80vw;
+    margin: 2vw;
+
+}
+.corporateGrid {
+    padding-bottom: 5vw;
+}
+.merchTitle {
+    font-family: "gigantic",sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 10vw;
+    line-height: 10.5vw;
+    color: #F9D756;
+    text-align: center;
+}
+.shirt, .vinyl {
+    border-radius: 4vw;
+    margin: 2vw;
+    width: 80vw;
+}
+
 /*about CSS STARTS */
 .aboutGrid {
     display: flex;
