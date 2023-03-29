@@ -858,6 +858,39 @@ a:hover {
     width: 80vw;
 }
 
+/*RITUAL CSS STARTS*/
+
+.ritch{
+    font-size: 16vw;
+    line-height: 23vw;
+}
+
+.drinky {
+    font-size: 18.75vw;;
+}
+
+.toRemember {
+    font-size: 8vw;
+}
+.ritualPageContainer {
+    position: relative;
+    background: #D6EBEB 0% 0% no-repeat padding-box;
+    width: 100%;
+    margin-top: 3vw;
+    overflow: hidden;
+    padding-bottom: 20vw;
+    overflow-x: hidden;
+}
+
+.ritualTitleContainer {
+    margin: 3vw;
+    font-family: "gigantic",sans-serif;
+    font-weight: 900;
+    color:#0F5E69;
+    line-height: 15vw;
+    font-size: 20vw;
+}
+
 /*about CSS STARTS */
 .aboutGrid {
     display: flex;
