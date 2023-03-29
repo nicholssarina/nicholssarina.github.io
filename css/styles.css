@@ -37,6 +37,7 @@ nav {
   @media (max-width: 600px) { 
     nav {
         font-size: 3vw;
+        margin-top: 3em;
     }
     nav ul {
         padding-left:2vw;
@@ -198,10 +199,16 @@ a:hover {
     display: flex;
     padding: 0;
     box-sizing: border-box;
-    margin-left: -40px;
+    margin-left: -34px;
     margin-right: 70px;
     cursor: pointer;
 }
+ @media (max-width: 600px) {
+    .workContainer a {
+        margin-left: -43px;
+        margin-right: 50px;
+    }
+ }
 .logo {
     position: relative;
     font-family: "gigantic", sans-serif;
@@ -214,6 +221,16 @@ a:hover {
     padding-bottom: 3vw;
     line-height: .2vw;  
     letter-spacing: .05vw;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        position: relative;
+        line-height: .05em;
+        padding-top: 1.5em;
+        padding-left: 1.5em;
+        padding-bottom:1.5em;
+    }
 }
 
 
@@ -649,6 +666,7 @@ a:hover {
     padding-top: 5vw;
 
 }
+
 .curriculumCoversGridOne img {
     width: 35vw;
     height: auto;
@@ -719,7 +737,13 @@ a:hover {
     border-radius: 10px;
     box-shadow: 3vw 4vw 4vw #00000029;
 }
-
+@media (max-width: 600px) {
+    .curriculumCoversGridOne, .curriculumCoversGridTwo, .curriculumCoversGridThree, .curriculumCoversGridFour, .curriculumCoversGridFive {
+        width: 20vw;
+        height: auto;
+        gap: 2vw;
+    }
+}
 .iphoneMockup {
     -webkit-filter: drop-shadow(3vw 4vw 4vw #00000029);
     filter: drop-shadow(3vw 4vw 4vw #00000029);
@@ -1223,6 +1247,12 @@ a:hover {
     border: .1vw solid black;
     padding: 1vw;
 }
+ @media (max-width: 600px) {
+    .aboutGrid {
+        width: 20vw;
+        height: 30vw;
+    }
+ }
 
 .aboutExplanationContainer {
     position: relative;
