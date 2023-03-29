@@ -46,10 +46,9 @@
           About me
         </div>
         <div class = "aboutExplanation">
-          <p>What is there to know? Well, I'm a music-loving, movie-watching, design-crazy
-            creative with a whole lot of ambition. I'm always looking for new ways to express 
+          <p>What is there to know? Well, I'm a music-loving, movie-watching aspiring creative. I'm always looking for new ways to express 
             myself and bring a fresh perspective to everything I create. If you need me, I'm probably 
-            holed up in my room with my headphones on, doodling, or lost in a movie marathon.</p>
+            holed up in my room with my headphones on, noodling on my guitar, or recording an episode of my film podcast.</p>
           <p>Once I make my way into the design world, my goal is to make people stop and take notice of what I've created, and hopefully inspire them to 
             get creative themselves.</p>
         </div>
@@ -68,43 +67,54 @@
           <button class="nextButton">&gt;</button>
         </div>
       </div>
+      <div class = "reachOut">
+        REACH OUT
+      </div>
+      <div class = "contactContainer">
+        <div class = "ifYouLike">
+          If you like what you see...
+        </div>
+        <div class = "contactInfo">
+          shoot me an email at <b>nichols.sarina@gmail.com </p>
+      </div>
     </div>
+    
     <script>
       const carouselImages = document.querySelectorAll('.carousel img');
       const prevButton = document.querySelector('.prevButton');
       const nextButton = document.querySelector('.nextButton');
       let currentIndex = 0;
 
-  function showImage(index) {
-    carouselImages[currentIndex].classList.remove('active');
-    currentIndex = index;
-    carouselImages[currentIndex].classList.add('active');
-  }
+function showImage(index) {
+  carouselImages[currentIndex].classList.remove('active');
+  currentIndex = index;
+  carouselImages[currentIndex].classList.add('active');
+}
 
-  function showNextImage() {
-    showImage((currentIndex + 1) % carouselImages.length);
-  }
+function showNextImage() {
+  showImage((currentIndex + 1) % carouselImages.length);
+}
 
-  function showPrevImage() {
-    showImage((currentIndex + carouselImages.length - 1) % carouselImages.length);
-  }
+function showPrevImage() {
+  showImage((currentIndex + carouselImages.length - 1) % carouselImages.length);
+}
 
-  nextButton.addEventListener('click', showNextImage);
-  prevButton.addEventListener('click', showPrevImage);
+nextButton.addEventListener('click', showNextImage);
+prevButton.addEventListener('click', showPrevImage);
 
-  window.addEventListener('load', () => {
-    carouselImages.forEach(img => {
-      const aspectRatio = img.naturalWidth / img.naturalHeight;
-      if (aspectRatio > 1) {
-        img.style.width = '100%';
-        img.style.height = 'auto';
-      } else {
-        img.style.width = 'auto';
-        img.style.height = '100%';
-      }
-    });
-    showImage(0);
-  })
+window.addEventListener('load', () => {
+  carouselImages.forEach(img => {
+    const aspectRatio = img.naturalWidth / img.naturalHeight;
+    if (aspectRatio > 1) {
+      img.style.width = '100%';
+      img.style.height = 'auto';
+    } else {
+      img.style.width = 'auto';
+      img.style.height = '100%';
+    }
+  });
+  showImage(0);
+})
 </script>
 </body>
 </html>
