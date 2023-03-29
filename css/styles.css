@@ -32,6 +32,18 @@ nav {
     font-style: normal;
     margin-top: 50px;
   }
+  
+  @media (max-width: 600px) { 
+    nav {
+        font-size: 3vw;
+    }
+    nav ul {
+        padding-left:5vw;
+        padding-right: 5vw;
+    }
+  }
+
+  
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -409,9 +421,11 @@ a:hover {
  }
 
  video {
+    position: relative;
     border-radius: 25px;
     width: 90vw;
     padding-bottom: 2vw;
+    z-index: 6;
  }
  /* Beginning of Spotify University CSS*/
 
@@ -1002,6 +1016,120 @@ a:hover {
     box-shadow: 3vw 4vw 4vw #00000029;
     top: -65vw;
 }
+
+/*COD CSS STARTS*/
+.safeZonesPageContainer {
+    position: relative;
+    background: #D6CDD0 0% 0% no-repeat padding-box;
+    width: 100%;
+    margin-top: 3vw;
+    overflow: hidden;
+    padding-bottom: 20vw;
+    overflow-x: hidden;
+}
+.safezonesTitle {
+    font-family: "gigantic",sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color:#4E0C32;
+    line-height: 15vw;
+}
+.callofduty {
+    font-size: 9vw;
+
+}
+.warZone {
+    position: relative;
+    font-size: 12vw;
+    z-index: 2;
+}
+
+.safeZones {
+    position: relative;
+    font-size: 10vw;
+    z-index: 2;
+}
+
+.codHeaderImage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: -6.5vw;
+    opacity: .5;
+    bottom: 13vw;
+}
+.oneClubWinnerGoldContainer{
+    position: relative;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
+    padding: 5vw;
+    border-width: .25vw;
+    border-style: solid;
+    border-color: #4E0C32;
+    border-radius: 25px;
+    bottom: 13vw;
+}
+.oneClubGoldText {
+    position: relative;
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    font-size: 6vw;
+    text-align: left;
+    line-height: 6.5vw;
+    color: #896B19;
+    z-index: 4;
+}
+
+.safezonesExplanationContainer {
+    position: relative;
+    margin: 5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+    border-width: .25vw;
+    border-style: solid;
+    border-color: #4E0C32;
+    border-radius: 25px;
+    bottom: 13vw;
+}
+.safezonesExplanationTitle {
+    position: relative;
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    color: #4E0C32;
+    font-size: 8vw;
+    text-align: left;
+    padding-left: 2vw;
+
+}
+.safezonesExplanation {
+    position: relative;
+    font-family: "new-kansas", sans-serif;
+    font-weight: 200;
+    font-size: 3vw;
+    color: #4E0C32;
+    text-align: left;
+    padding-left: 2vw;
+}
+.casestudyCOD {
+    position: relative;
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 9vw;
+    color: #4E0C32;
+    padding-top: -1vw;
+    bottom: 13vw;
+}
+
+
+.codVideoContainer video{
+    position: relative;
+    bottom: 13vw;
+}
+
 
 /*about CSS STARTS */
 .aboutGrid {
