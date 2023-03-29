@@ -883,12 +883,124 @@ a:hover {
 }
 
 .ritualTitleContainer {
-    margin: 3vw;
+    margin-top: 3vw;
     font-family: "gigantic",sans-serif;
     font-weight: 900;
     color:#0F5E69;
     line-height: 15vw;
     font-size: 20vw;
+}
+
+.ritualBottle {
+    margin-top:-2vw;
+    width: 88vw;
+}
+
+.ritualExplanationContainer {
+    position: relative;
+    margin: 5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+    border-width: .25vw;
+    border-style: solid;
+    border-color: #0F5E69;
+    border-radius: 25px;
+}
+.ritualExplanationTitle {
+    position: relative;
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    color: #0F5E69;
+    font-size: 8vw;
+    text-align: left;
+    padding-left: 2vw;
+
+}
+.ritualExplanation {
+    position: relative;
+    font-family: "new-kansas", sans-serif;
+    font-weight: 200;
+    font-size: 3vw;
+    color: #0F5E69;
+    text-align: left;
+    padding-left: 2vw;
+}
+
+.snapchatTitle {
+    font-family: "gigantic",sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 10vw;
+    line-height: 10.5vw;
+    color: #0F5E69;
+    text-align: left;
+    padding-left: 5vw;
+}
+
+.snapchatone, .snapchattwo, .snapchatthree, .snapchatfour {
+    width: 20vw;
+    margin: 2vw;
+    position: relative;
+    display: table-column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vw;
+    margin: auto;
+}
+
+
+.snapchatone, .snapchatthree {
+    transform: rotate(-20deg);
+}
+
+.snapchattwo, .snapchatfour {
+    transform: rotate(20deg);
+}
+
+.snapchatone, .snapchatthree {
+    left: -18vw;
+}
+
+.snapchattwo, .snapchatfour {
+    top: -40vw;
+    right: -18vw;
+    gap: 5vw;
+}
+
+.snapchatthree, .snapchatfour {
+    top: -40vw;
+}
+
+.snapchatfour {
+    top: -80vw;
+}
+.snapchatone, .snapchattwo, .snapchatthree, .snapchatfour {
+    -webkit-filter: drop-shadow(3vw 4vw 4vw #00000029);
+    filter: drop-shadow(3vw 4vw 4vw #00000029);
+}
+
+.inSituTitle {
+    font-family: "gigantic",sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 15vw;
+    line-height: 10.5vw;
+    color: #0F5E69;
+    text-align: center;
+    margin: 1vw;
+    position: relative;
+    top: -70vw;
+    bottom: -80vw;
+}
+.billboard {
+    position: relative;
+    margin: 2vw;
+    width: 80vw;
+    border-radius: 4vw;
+    box-shadow: 3vw 4vw 4vw #00000029;
+    top: -65vw;
 }
 
 /*about CSS STARTS */
