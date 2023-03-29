@@ -1362,6 +1362,26 @@ a:hover {
     justify-content: center;
   }
 
+  @media (max-width: 600px) {
+    .carousel {
+        height: 90vw;
+        margin: 5vw;
+    }
+    .carousel img {
+        max-height: 90vw;
+    }
+
+    .nextButton {
+        left: 38vw;
+        top: 40vw;
+    }
+
+    .prevButton {
+        right: 38vw;
+        top: 40.5vw;
+    }
+  }
+
 /*Contact CSS*/
 .reachOut {
     font-family: "gigantic",sans-serif;
