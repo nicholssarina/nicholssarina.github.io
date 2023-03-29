@@ -39,8 +39,9 @@ nav {
         font-size: 3vw;
     }
     nav ul {
-        padding-left:5vw;
-        padding-right: 5vw;
+        padding-left:2vw;
+        padding-right: 2vw;
+        gap: 3vw;
     }
   }
 
@@ -85,13 +86,69 @@ a:hover {
     padding-left: 5vw;
     line-height: 15px;
 }
+.homepage1 {
+    display: none;
+}
+.homepage2 {
+    display: none;
+}
+.homepage3 {
+    display: none;
+}
+
+    @media (max-width: 600px) {
+        .homeContainer {
+            background: #EEEFEC 0% 0% no-repeat padding-box;
+            border: black solid .5vw;
+            border-radius: 50px;
+            margin-left: .5em;
+            margin-right: .5em;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            padding-bottom: 8em;
+        }
+        .homepage {
+            padding-top: .5em;
+        }
+        .homepage, .homepage1, .homepage2, .homepage3 {
+            display: block;
+            position: relative;
+            font-family: "gigantic", sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            letter-spacing: .5px;
+            font-size: 2.6em;
+            margin: auto;
+            padding-left: 8vw;
+            line-height: .08em;
+            text-align: left;
+            padding-bottom: .2em;
+        }
+    }
 .name {
     color: #000;
 }
 .title {
     color: #6F706E;
 }
-
+.name1 {
+    color: #A1A2A0;
+}
+.title1 {
+    color: #C6C6C4;
+}
+.name2 {
+    color: #CDCECB;
+}
+.title2 {
+    color: #DDDEDB; 
+}
+.name3{
+    color: #DADBD8;
+}
+.title3 {
+    color:#E3E4E1;
+}
 .nameRed {
     color: #951717;
 }
@@ -1218,7 +1275,7 @@ a:hover {
  .carousel {
     width: auto;
     margin: 3vw;
-    height: 45vw;
+    height: 52vw;
     position: relative;
     display: inline-block;
     text-align: center;
@@ -1229,8 +1286,8 @@ a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 70vw;
-    max-height: auto;
+    max-height: 65vw;
+    max-width: auto;
     opacity: 0;
     transition: opacity 1s ease-in-out;
     border-radius: 2vw;
@@ -1243,15 +1300,19 @@ a:hover {
   }
   
   .carousel-nav button {
-    width: 100%;
     background: black;
-    border-radius: 70vw;
+    border-radius: 50vw;
     font-family: "new-kansas",sans-serif;
-    font-size: 3vw;
+    font-size: 4vw;
+    line-height: 4vw;
     cursor: pointer;
     letter-spacing: 0;
     text-decoration: none;
     border: none;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
   }
   
   .carousel-nav button:hover {
@@ -1260,14 +1321,14 @@ a:hover {
 
   .nextButton {
     left: 30vw;
-    top: 13vw;
+    top: 25vw;
     position: relative;
   }
 
   .prevButton {
     position: relative;
     right: 30vw;
-    top: 19vw;
+    top: 25.5vw;
     justify-content: center;
   }
 
