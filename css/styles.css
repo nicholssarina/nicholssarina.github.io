@@ -102,14 +102,16 @@ a:hover {
             background: #EEEFEC 0% 0% no-repeat padding-box;
             border: black solid .5vw;
             border-radius: 50px;
+            margin-top: 1em;
             margin-left: .5em;
             margin-right: .5em;
-            margin-top: 1em;
             margin-bottom: 1em;
-            padding-bottom: 5em;
+            padding-bottom: 1.5em;
+            overflow: hidden;
+            overflow-x: hidden;
+            position: static;
         }
         .homepage {
-            padding-top: .5em;
         }
         .homepage, .homepage1, .homepage2, .homepage3 {
             display: block;
