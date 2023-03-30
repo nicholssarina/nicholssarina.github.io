@@ -31,6 +31,7 @@
         DESIGNER
       </div>
     </div>
+  </div>
   <div class = "aboutPageContainer">
     <div class = "aboutGrid">
       <div class = "helloThere">
@@ -38,7 +39,7 @@
         <p>THERE</p>
       </div>
       <div class = aboutImage>
-        <img src = "../aboutimages/headshot.jpg">
+        <img src = "../aboutimages/headshot.jpg" alt = "image of Sarina">
       </div>
     </div>
       <div class = "aboutExplanationContainer">
@@ -59,8 +60,9 @@
       <div class= "carousel">
         <img src="../artImages/tubedrawing.jpg" alt="Image 1">
         <img src="../artImages/fbbposter.jpg" alt="Image 2">
-        <img src="../artImages/blyposter.jpg"  alt="Image 4">
-        <img src="../artImages/shrewdrawing.jpg"  alt="Image 5">
+        <img src="../artImages/blyposter.jpg"  alt="Image 3">
+        <img src="../artImages/shrewdrawing.jpg"  alt="Image 4">
+        <img src="../artImages/holyandfrancover.png"  alt="Image 5">
         <div class="carousel-nav">
           <button class="prevButton">&lt;</button>
           <button class="nextButton">&gt;</button>
@@ -74,15 +76,16 @@
           If you like what you see...
         </div>
         <div class = "contactInfo">
-          shoot me an email at <b>nichols.sarina@gmail.com </p>
+          shoot me an email at <b>nichols.sarina@gmail.com</b>
+        </div>
       </div>
     </div>
-    
     <script>
       const carouselImages = document.querySelectorAll('.carousel img');
       const prevButton = document.querySelector('.prevButton');
       const nextButton = document.querySelector('.nextButton');
       let currentIndex = 0;
+  
 
 function showImage(index) {
   carouselImages[currentIndex].classList.remove('active');
