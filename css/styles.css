@@ -978,6 +978,7 @@ a:hover {
     position: relative;
     background: #D6EBEB 0% 0% no-repeat padding-box;
     width: 100%;
+    max-height: 400vw;
     margin-top: 3vw;
     overflow: hidden;
     padding-bottom: 20vw;
@@ -996,6 +997,8 @@ a:hover {
 .ritualBottle {
     margin-top:-2vw;
     width: 88vw;
+    -webkit-filter: drop-shadow(3vw 4vw 4vw #00000029);
+    filter: drop-shadow(3vw 4vw 4vw #00000029);
 }
 
 .ritualExplanationContainer {
@@ -1110,7 +1113,7 @@ a:hover {
     position: relative;
     background: #D6CDD0 0% 0% no-repeat padding-box;
     width: 100%;
-    margin-top: 3vw;
+    padding-top: 4vw;
     overflow: hidden;
     padding-bottom: 20vw;
     overflow-x: hidden;
@@ -1120,10 +1123,11 @@ a:hover {
     font-weight: 900;
     text-align: center;
     color:#4E0C32;
-    line-height: 15vw;
+    line-height: 12vw;
 }
 .callofduty {
     font-size: 9vw;
+    line-height: 10vw;
 
 }
 .warZone {
