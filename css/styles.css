@@ -10,12 +10,13 @@ body {
 
 .homepageBody {
     /* UI Properties */
-    background: #EEEFEC 0% 0% no-repeat padding-box;
+    background: radial-gradient( #6CD087, #3CD1CC,  #6B3DC3);
     opacity: 1;
     text-align: center;
     overflow-x: hidden;
     margin: 0;
     overflow: hidden;
+    height: 100%
 }
 
 header {
@@ -115,7 +116,6 @@ a:hover {
 
 .homeContainer {
     position: relative;
-    background-image: linear-gradient(45deg, #6B3DC3, #6CD087, #3CD1CC);
     margin: auto;
     height: 70vw;
     overflow: hidden;
