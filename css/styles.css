@@ -336,7 +336,6 @@ a:hover {
     padding: 0;
     box-sizing: border-box;
     margin-left: -37px;
-    margin-right: 70px;
     cursor: pointer;
 }
  @media (max-width: 600px) {
