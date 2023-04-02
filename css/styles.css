@@ -84,7 +84,7 @@ nav {
  nav ul {
     position: relative;
     display: flex;
-    right:-69vw;
+    right:-67.5vw;
     gap: 2vw;
     list-style: none;
     cursor: pointer;
@@ -207,7 +207,7 @@ a:hover {
 .logoWorkGrid {
     position: relative;
     width: 40vw;
-    padding-left: 3vw;
+    padding-left: 4vw;
     bottom: -8vw;
     
 }
@@ -318,24 +318,23 @@ a:hover {
     color:#E3E4E1;
 }
 
-
+.workContainer {
+    display: block;
+    margin: auto;
+}
 .workContainer img {
-    width: 100%;
     display: flex;
-    max-width: 100vw;
+    width: 90vw;
     border-radius: 6vw;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
 .workContainer a {
-    width: 100%;
-    max-width: 98vw;
     border-radius: 25px;
     display: flex;
     padding: 0;
     box-sizing: border-box;
-    margin-left: -37px;
     cursor: pointer;
 }
  @media (max-width: 600px) {
@@ -525,7 +524,7 @@ a:hover {
 }
 .CODContainer {
     max-width: 400vw;
-    width: 100vw;
+    width: 1000vw;
     position: relative;
     text-align: left;
     color: white;
@@ -1379,7 +1378,7 @@ a:hover {
     font-family: "gigantic", sans-serif;
     font-size: 12vw;
     line-height: .5vw;
-    background: -webkit-linear-gradient(#6CD087, #3CD1CC,  #6B3DC3);
+    background: -webkit-linear-gradient(#6CD087, #3CD1CC,  #6B3DC3, red, orange, yellow);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
