@@ -419,6 +419,8 @@ a:hover {
 }
 
 .spotifyContainer {
+    max-width: 400vw;
+    width: 100vw;
     position: relative;
     text-align: left;
     color: white;
@@ -450,6 +452,8 @@ a:hover {
     font-size: 8vw;
 }
 .modfiContainer {
+    max-width: 400vw;
+    width: 100vw;
     position: relative;
     text-align: left;
     color: white;
@@ -521,6 +525,8 @@ a:hover {
     line-height: 8vw;
 }
 .CODContainer {
+    max-width: 400vw;
+    width: 100vw;
     position: relative;
     text-align: left;
     color: white;
@@ -1368,20 +1374,22 @@ a:hover {
     height: 500px;
     margin: auto;
     gap: 2vw;
-    padding-top: 5vw;
-    
+    padding-top: 1vw;
 }
 .helloThere {
     font-family: "gigantic", sans-serif;
     font-size: 12vw;
-    color: black;
     line-height: .5vw;
+    background: -webkit-linear-gradient(#6CD087, #3CD1CC,  #6B3DC3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .aboutImage img {
     width: 20vw;
     border-radius: 12.5vw 12.5vw 2vw 2vw;
-    border: .1vw solid black;
+    border: .25vw solid black;
     padding: 1vw;
 }
  @media (max-width: 600px) {
