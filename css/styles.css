@@ -56,13 +56,13 @@ nav {
   
   @media (max-width: 600px) { 
     nav {
-        font-size: 3vw;
-        margin-top: 3em;
+        font-size: 2vw;
     }
     nav ul {
-        padding-left:2vw;
-        padding-right: 2vw;
-        gap: 3vw;
+        position: relative;
+        padding-top: 18vw;
+        left: 48vw;
+        gap: 2vw;
     }
   }
 
@@ -164,33 +164,26 @@ a:hover {
 }
 
     @media (max-width: 600px) {
-        .homeContainer {
-            background: #EEEFEC 0% 0% no-repeat padding-box;
-            margin-left: .5em;
-            margin-right: .5em;
-            margin-bottom: 1em;
-            padding-bottom: 1em;
-            overflow: hidden;
+        .homepageBody {
+            background: radial-gradient( #6CD087, #3CD1CC,  #6B3DC3);
+            opacity: 1;
+            text-align: center;
             overflow-x: hidden;
-            position: static;
+            margin: 0;
+            overflow: hidden;
+            height: 220vw;
         }
-        .homepage {
-            padding: .05em;
+        .homepageNav ul 
+        {
+            padding-top: 80vw;
         }
-        .homepage, .homepage1, .homepage2, .homepage3 {
-            display: block;
-            position: relative;
-            font-family: "gigantic", sans-serif;
-            font-style: normal;
-            font-weight: 800;
-            letter-spacing: .5px;
-            font-size: 2.6em;
-            margin: auto;
-            padding-left: 8vw;
-            line-height: .08em;
-            text-align: left;
-            padding-bottom: .2em;
-            position: static;
+
+        .homeContainer {
+            height: 220vw;
+        }
+
+        .actualLogo {
+            padding-bottom: 68vw;
         }
     }
 .name {
@@ -338,10 +331,20 @@ a:hover {
     box-sizing: border-box;
     cursor: pointer;
 }
+
  @media (max-width: 600px) {
-    .workContainer a {
-        margin-left: -43px;
-        margin-right: 50px;
+    .workContainer {
+        padding-top: 3vw;
+        position: relative;
+        padding-left: 1vw;
+        display: block;
+        margin: auto;
+        right: 11.5vw;
+    }
+
+    .logoWorkGrid {
+        position: absolute;
+        top: 12vw;
     }
  }
 .logo {
@@ -365,7 +368,7 @@ a:hover {
         line-height: 1px;
         padding-top: 1.5em;
         padding-left: 1.5em;
-        padding-bottom:1.5em;
+        padding-bottom: 1.5em;
     }
 }
 
