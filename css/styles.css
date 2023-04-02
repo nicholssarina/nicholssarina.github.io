@@ -319,6 +319,7 @@ a:hover {
 }
 
 .workContainer {
+    padding-left: 1vw;
     display: block;
     margin: auto;
 }
