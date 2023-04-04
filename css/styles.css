@@ -340,6 +340,7 @@ a:hover {
         padding-left: 1vw;
         display: block;
         margin: auto;
+        left: -10vw;
         right: 11.5vw;
     }
 
@@ -348,6 +349,7 @@ a:hover {
         top: 12vw;
     }
  }
+
 .logo {
     position: relative;
     font-family: "gigantic", sans-serif;
