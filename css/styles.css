@@ -276,6 +276,7 @@ a:hover {
 }
 
 .logoWork {
+    padding-left: 1vw;
     position: relative;
     font-family: "gigantic", sans-serif;
     font-style: normal;
