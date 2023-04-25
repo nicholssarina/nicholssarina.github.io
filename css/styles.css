@@ -79,6 +79,7 @@ nav {
     left: -12vw;
     align-items: center;
     overflow: hidden;
+    color: white;
  }
  
  nav ul {
@@ -96,6 +97,12 @@ a {
     text-decoration: none;
     font-size: 150%;
     cursor: pointer;
+}
+.homepageNav a:visited {
+    color: white;
+}
+.homePageNav a:hover {
+    color: grey;
 }
 a:link{
     text-decoration: none;
@@ -117,17 +124,10 @@ a:hover {
 .homeContainer {
     position: relative;
     margin: auto;
-    height: 70vw;
+    height: 100vw;
     overflow: hidden;
 }
 
-.homeContainerBorder {
-    position: relative;
-    border: .25vw solid #EEEFEC;
-    border-radius: 3vw;
-    margin: 2vw;
-    overflow: hidden;
-}
 .homepage {
     font-family: "gigantic", sans-serif;
     font-style: normal;
@@ -313,24 +313,27 @@ a:hover {
 }
 
 .workContainer {
-    padding-left: .7vw;
     display: block;
-    margin: auto;
+    margin: 0;
 }
 .workContainer img {
     display: flex;
-    width: 90vw;
-    border-radius: 6vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border-radius: 4vw;
 }
 .workContainer a {
-    border-radius: 25px;
+    width: 100%;
     display: flex;
     padding: 0;
-    box-sizing: border-box;
     cursor: pointer;
+    margin: 0;
+}
+
+a {
+    margin: 0;
 }
 
  @media (max-width: 600px) {
@@ -340,8 +343,6 @@ a:hover {
         padding-left: 1vw;
         display: block;
         margin: auto;
-        left: -10vw;
-        right: 11.5vw;
     }
 
     .logoWorkGrid {
@@ -380,12 +381,12 @@ a:hover {
     position: relative;
     text-align: left;
     color: white;
-    left: 2em;
-    padding-bottom: .5em;
-    padding-left: .5em;
-    padding-right: .5em;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 .diabloTitle {
@@ -429,10 +430,12 @@ a:hover {
     position: relative;
     text-align: left;
     color: white;
-    left: 2em;
-    padding: .5em;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 .spotifyTitle {
     position: absolute;
@@ -462,10 +465,12 @@ a:hover {
     position: relative;
     text-align: left;
     color: white;
-    left: 2em;
-    padding: .5em;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 .modfiTitle {
@@ -498,10 +503,9 @@ a:hover {
     position: relative;
     text-align: left;
     color: white;
-    left: 2em;
-    padding: .5em;
     display: flex;
     flex-wrap: wrap;
+    padding: 3vw;
 }
 .ritualTitle {
     position: absolute;
@@ -535,10 +539,12 @@ a:hover {
     position: relative;
     text-align: left;
     color: white;
-    left: 2em;
-    padding: .5em;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 .CODTitle {
     position: absolute;
