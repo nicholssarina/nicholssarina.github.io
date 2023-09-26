@@ -1688,15 +1688,45 @@ a {
     top: 19vw;
 }
 
-.zyrWebsite {
+.zyrSocialTitle {
     position: relative;
     font-family: "gigantic", sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 9vw;
+    font-size: 8vw;
     color: #EFE2E2;
-    letter-spacing: .2vw;
+    letter-spacing: .3vw;
     line-height: 10vw;
+    margin: 10vw 0vw 5vw 00vw;
+}
+.zyrSocialGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 25vw;
+    gap: 2vw;
+    padding-top: 10vw;
+}
+.instaone, .instatwo, .instathree, .instafour {
+    width: 19vw;
+    position: relative;
+    display: table-column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vw;
+}
+.instaone, .instathree {
+    transform: rotate(-20deg);
+}
+
+.instatwo, .instafour {
+    transform: rotate(20deg);
+}
+
+.instaone, .instatwo, .instathree, .instafour {
+    -webkit-filter: drop-shadow(3vw 4vw 4vw #00000029);
+    filter: drop-shadow(3vw 4vw 4vw #00000029);
 }
 /*about CSS STARTS */
 .aboutGrid {
