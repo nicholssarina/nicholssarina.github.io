@@ -40,12 +40,11 @@
 .box {
    margin: -1.5rem;
     width: 10rem;
-    height: 20rem;
+    height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    transition: 1s all;
 }
 .artpic {
     height: 45vw;
