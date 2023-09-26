@@ -1952,7 +1952,7 @@ a {
     font-size: 4.5vw;
 }
 .artWord {
-   margin-top: 15vw;
+   margin-top: 10vw;
     font-family: "gigantic",sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -2004,6 +2004,47 @@ a {
     background-color: #642929;
   }
 
-.carouselContainer{
-    padding-top: 30vw;
+  .joanGrid {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 5vw;
+    width: 100vw;
+    height: 40vw;
+    gap: 2vw;
+}
+
+.joanGrid img {
+    width: 25vw;
+}
+
+.joanDrawingContainer {
+    height: 10vw;
+}
+
+.joanCaption {
+    position: relative;
+    font-family: "new-kansas",sans-serif;
+    color: #EFE2E2;
+    font-size: 2vw;
+    font-weight: 200;
+    text-align: center;
+    line-height: .25vw;
+}
+
+.clioPainting img{
+    margin-bottom: 2vw;
+    margin-top: 5vw;
+    width: 25vw;
+}
+
+
+.clioCaption {
+    position: relative;
+    font-family: "new-kansas",sans-serif;
+    color: #EFE2E2;
+    font-size: 2vw;
+    font-weight: 200;
+    text-align: center;
+    line-height: .25vw;
 }
