@@ -2002,3 +2002,7 @@ a {
   .button:hover {
     background-color: #642929;
   }
+
+  .artpic {
+    width: 10vw;
+  }
