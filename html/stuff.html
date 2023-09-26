@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/tpy7vuj.css">
+    <title>About</title>
+    <link rel="icon" type="image/x-icon" href="mylogofinal.png">
+</head>
+<body>
+    <div class = "navcontainer">
+    <nav>
+      <div class = "logoWorkGrid">
+        <div class="logoWork">
+          <div class="nameWork">
+            <p>SARINA NICHOLS</p>
+          </div>
+          <div class="titleWork">
+            DESIGNER
+          </div>
+          <div class = "workLogo">
+            <img src = "../mylogowithoutback.png">
+          </div>
+        </div>
+      </div>
+        <ul>
+         <li>
+            <a href="index.html">WORK</a>
+         </li>
+         <li>
+            <a href="about.html">ABOUT</a>
+          </li>
+          <li>
+            <a href="stuff.html">STUFF</a>
+        </ul>
+      </nav>
+  </div>
+      <div class = "creationsTitle">
+        OTHER CREATIONS
+      </div>
+      <div class= "carousel">
+        <img src="../artImages/tubedrawing.jpg" alt="Image 1">
+        <img src="../artImages/fbbposter.jpg" alt="Image 2">
+        <img src="../artImages/blyposter.jpg"  alt="Image 3">
+        <img src="../artImages/shrewdrawing.jpg"  alt="Image 4">
+        <img src="../artImages/holyandfrancover.jpg"  alt="Image 5">
+        <div class="carousel-nav">
+          <button class="prevButton">&lt;</button>
+          <button class="nextButton">&gt;</button>
+        </div>
+      </div>
+      <div class = "reachOut">
+        REACH OUT
+      </div>
+      <div class = "contactContainer">
+        <div class = "ifYouLike">
+          If you like what you see...
+        </div>
+        <div class = "contactInfo">
+          shoot me an email at <b>nichols.sarina@gmail.com</b>
+        </div>
+      </div>
+    </div>
+    <script>
+      const carouselImages = document.querySelectorAll('.carousel img');
+      const prevButton = document.querySelector('.prevButton');
+      const nextButton = document.querySelector('.nextButton');
+      let currentIndex = 0;
+  
+
+function showImage(index) {
+  carouselImages[currentIndex].classList.remove('active');
+  currentIndex = index;
+  carouselImages[currentIndex].classList.add('active');
+}
+
+function showNextImage() {
+  showImage((currentIndex + 1) % carouselImages.length);
+}
+
+function showPrevImage() {
+  showImage((currentIndex + carouselImages.length - 1) % carouselImages.length);
+}
+
+nextButton.addEventListener('click', showNextImage);
+prevButton.addEventListener('click', showPrevImage);
+
+window.addEventListener('load', () => {
+  carouselImages.forEach(img => {
+    const aspectRatio = img.naturalWidth / img.naturalHeight;
+    if (aspectRatio > 1) {
+      img.style.width = '100%';
+      img.style.height = 'auto';
+    } else {
+      img.style.width = 'auto';
+      img.style.height = '100%';
+    }
+  });
+  showImage(0);
+})
+</script>
+</body>
+</html>
