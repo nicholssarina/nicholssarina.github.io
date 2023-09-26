@@ -50,69 +50,7 @@
         <img src = "../artImages/holyandfrancover.jpg" alt="placeholder" class="hfCover">
         <div class = "hfCaption"> <p>A Short Graphic Story</p> 
                                   <p> <a href="hollyandfran.html" class = "button"> Read the Story </a></p>  </div>
-      </div>
-     <div class = "hollyFranContainer">
-        <img src = "../artImages/holyandfrancover.jpg" class = "hfCover">
-     </div>
-     <div class = "myArt">
-        ART
-     </div>
     </div>
 
 
 
-
-
-      <div class= "carousel">
-        <img src="../artImages/tubedrawing.jpg" alt="Image 1">
-        <img src="../artImages/fbbposter.jpg" alt="Image 2">
-        <img src="../artImages/blyposter.jpg"  alt="Image 3">
-        <img src="../artImages/shrewdrawing.jpg"  alt="Image 4">
-        <img src="../artImages/holyandfrancover.jpg"  alt="Image 5">
-        <div class="carousel-nav">
-          <button class="prevButton">&lt;</button>
-          <button class="nextButton">&gt;</button>
-        </div>
-      </div>
-    </div>
-    <script>
-      const carouselImages = document.querySelectorAll('.carousel img');
-      const prevButton = document.querySelector('.prevButton');
-      const nextButton = document.querySelector('.nextButton');
-      let currentIndex = 0;
-  
-
-function showImage(index) {
-  carouselImages[currentIndex].classList.remove('active');
-  currentIndex = index;
-  carouselImages[currentIndex].classList.add('active');
-}
-
-function showNextImage() {
-  showImage((currentIndex + 1) % carouselImages.length);
-}
-
-function showPrevImage() {
-  showImage((currentIndex + carouselImages.length - 1) % carouselImages.length);
-}
-
-nextButton.addEventListener('click', showNextImage);
-prevButton.addEventListener('click', showPrevImage);
-
-window.addEventListener('load', () => {
-  carouselImages.forEach(img => {
-    const aspectRatio = img.naturalWidth / img.naturalHeight;
-    if (aspectRatio > 1) {
-      img.style.width = '100%';
-      img.style.height = 'auto';
-    } else {
-      img.style.width = 'auto';
-      img.style.heig
-      ht = '100%';
-    }
-  });
-  showImage(0);
-})
-</script>
-</body>
-</html>
