@@ -332,12 +332,12 @@ a:hover {
 
 .workpic {
     width: 200vw;
+    height: auto;
 }
 
 .workContainer img {
     display: flex;
     max-width: 100%;
-    height: auto;
     flex: 1;
     justify-content: space-between;
     align-items: center;
@@ -1951,7 +1951,8 @@ a {
 .projectsWord {
     font-size: 4.5vw;
 }
-.myArt {
+.artWord {
+   margin-top: 15vw;
     font-family: "gigantic",sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -2003,6 +2004,6 @@ a {
     background-color: #642929;
   }
 
-  .artpic {
-    width: 10vw;
-  }
+.carouselContainer{
+    padding-top: 30vw;
+}
