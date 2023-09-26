@@ -2015,12 +2015,9 @@ a {
 }
 
 .joanGrid img {
-    width: 25vw;
+    width: 27vw;
 }
 
-.joanDrawingContainer {
-    height: 10vw;
-}
 
 .joanCaption {
     position: relative;
@@ -2035,9 +2032,8 @@ a {
 .clioPainting img{
     margin-bottom: 2vw;
     margin-top: 5vw;
-    width: 25vw;
+    width: 27vw;
 }
-
 
 .clioCaption {
     position: relative;
@@ -2047,4 +2043,26 @@ a {
     font-weight: 200;
     text-align: center;
     line-height: .25vw;
+}
+.posterCaption {
+    position: relative;
+    font-family: "new-kansas",sans-serif;
+    color: #EFE2E2;
+    font-size: 2vw;
+    font-weight: 200;
+    text-align: center;
+    line-height: .25vw;
+}
+.posterGrid {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 3vw;
+    width: 100vw;
+    height: 44vw;
+    gap: 2vw;
+}
+
+.posterGrid img {
+    height: 40vw;
 }
