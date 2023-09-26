@@ -1771,14 +1771,6 @@ a {
     margin-top: 2vw;
     overflow: hidden;
 }
-
-.creationsTitle {
-    font-family: "gigantic",sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 10vw;
-    line-height: 10.5vw;
-}
  /* ABOUT CAROUSEL CSS*/
 
  .carousel {
@@ -1903,4 +1895,80 @@ a {
     justify-content: center;
 }
 
- 
+/* STUFF CSS STARTS */
+
+.stuffPageContainer {
+    position: relative;
+    background: #9A5858 0% 0% no-repeat padding-box;
+    height: 200vw;
+    width: 100%;
+    margin-top: 2vw;
+    overflow: hidden;
+}
+.otherTitle {
+    font-family: "gigantic",sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    color: rgb(232, 218, 218);
+    padding-top: 4vw;
+    line-height: 6.5vw;
+}
+
+.otherWord {
+    font-size: 7vw;
+}
+.projectsWord {
+    font-size: 4.5vw;
+}
+.myArt {
+    font-family: "gigantic",sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 9vw;
+    line-height: 2vw;
+    text-align: center;
+    color: rgb(232, 218, 218);
+}
+
+.hollyFranGrid img {
+    width: 30vw;
+    padding: 2vw;
+}
+
+.hollyFranGrid {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 90vw;
+    height: 50vw;
+    gap: 2vw;
+}
+.hfCaption {
+    position: relative;
+    font-family: "new-kansas",sans-serif;
+    color: #EFE2E2;
+    font-size: 2vw;
+    font-weight: 200;
+    text-align: left;
+    line-height: .25vw;
+    top: 20vw;
+}
+
+.hfCaption .button {
+    color: white;
+}
+.button {
+    display: inline-block;
+    padding: 2vw 2vw;
+    background-color: #E5A1A1;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #642929;
+  }
