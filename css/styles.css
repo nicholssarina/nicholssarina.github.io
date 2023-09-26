@@ -1709,7 +1709,7 @@ a {
     padding-top: 10vw;
 }
 .instaone, .instatwo, .instathree, .instafour {
-    width: 19vw;
+    width: 20vw;
     position: relative;
     display: table-column;
     justify-content: center;
