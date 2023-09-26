@@ -327,7 +327,7 @@ a:hover {
 .workContainer {
     display: block;
     margin: 0;
-    width: 100%;
+    width: 100%;                                                                                                                                                                                                                                                                                        
 }
 
 .workpic {
@@ -1986,23 +1986,6 @@ a {
     top: 20vw;
 }
 
-.hfCaption .button {
-    color: white;
-}
-.button {
-    display: inline-block;
-    padding: 2vw 2vw;
-    background-color: #E5A1A1;
-    color: white;
-    text-decoration: none;
-    border: none;
-    border-radius: 1vw;
-    cursor: pointer;
-  }
-  
-  .button:hover {
-    background-color: #642929;
-  }
 
   .joanGrid {
     justify-content: center;
@@ -2065,4 +2048,223 @@ a {
 
 .posterGrid img {
     height: 40vw;
+}
+
+.hollyFranContainer {
+    position: relative;
+    text-align: left;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.hfTitle {
+    position: absolute;
+    font-family: "gigantic", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    color: white;
+    line-height: 8vw;
+    bottom: 3vw;
+    left: 4vw;
+    letter-spacing: .2vw;
+
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    cursor: pointer;
+  }
+  
+  .hollyFranContainer:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .hollyFranContainer .overlayColor {
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+    cursor: pointer;
+    border-radius: 4vw;
+    background-color: rgb(154, 29, 29);
+    width: 85.9%;
+    height: 97%;
+    padding-left: 10vw;
+    align-items: center;
+  }
+  
+  .hollyFranContainer:hover .overlayColor {
+    position: absolute;
+    opacity: .25;
+    cursor: pointer;
+  }
+ .hollyFran {
+    font-size: 7vw;
+}
+.graphic {
+    font-size: 7.2vw;
+}
+
+.bbsContainer {
+    position: relative;
+    text-align: left;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.bbsTitle {
+    position: absolute;
+    font-family: "gigantic", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    color: white;
+    line-height: 8.5vw;
+    bottom: 3vw;
+    left: 4vw;
+    letter-spacing: .2vw;
+
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    cursor: pointer;
+  }
+  
+  .bbsContainer:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .bbsContainer .overlayColor {
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+    cursor: pointer;
+    border-radius: 4vw;
+    background-color: rgb(154, 29, 29);
+    width: 85.9%;
+    height: 97%;
+    padding-left: 10vw;
+    align-items: center;
+  }
+  
+  .bbsContainer:hover .overlayColor {
+    position: absolute;
+    opacity: .25;
+    cursor: pointer;
+  }
+ .bbs {
+    font-size: 8vw;
+}
+.podcast {
+    font-size: 8vw;
+}
+
+.denContainer {
+    position: relative;
+    text-align: left;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.denTitle {
+    position: absolute;
+    font-family: "gigantic", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    color: white;
+    line-height: 12vw;
+    bottom: 3vw;
+    left: 4vw;
+    letter-spacing: .3vw;
+
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    cursor: pointer;
+  }
+  
+  .denContainer:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .denContainer .overlayColor {
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+    cursor: pointer;
+    border-radius: 4vw;
+    background-color: rgb(154, 29, 29);
+    width: 85.9%;
+    height: 97%;
+    padding-left: 10vw;
+    align-items: center;
+  }
+  
+  .denContainer:hover .overlayColor {
+    position: absolute;
+    opacity: .25;
+    cursor: pointer;
+  }
+ .den {
+    font-size: 11vw;
+}
+/* HOLLY AND FRAN CSS STARTS */
+
+.hollyandFranGraphicStory {
+    position: absolute;
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 10vw;
+    margin-left: 4vw;
+}
+
+.hollyFranTitle{
+    font-size: 7vw;
+    color: #290505;
+    line-height: .1vw;
+}
+
+.gStory {
+    position: relative;
+    font-size: 6.5vw;
+    color: #290505;
+    line-height:.1vw;
 }
