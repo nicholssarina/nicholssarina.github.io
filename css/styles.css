@@ -1929,7 +1929,7 @@ a {
 
 .stuffPageContainer {
     position: relative;
-    background: #9A5858 0% 0% no-repeat padding-box;
+    background: #e7c9c9 0% 0% no-repeat padding-box;
     height: 400vw;
     width: 100%;
     margin-top: 2vw;
@@ -1940,8 +1940,8 @@ a {
     font-weight: 900;
     font-style: normal;
     text-align: center;
-    color: rgb(232, 218, 218);
-    padding-top: 4vw;
+    color: #562525;
+    padding-top: 7vw;
     line-height: 8vw;
 }
 
@@ -1959,7 +1959,7 @@ a {
     font-size: 9vw;
     line-height: 2vw;
     text-align: center;
-    color: rgb(232, 218, 218);
+    color: #562525;
 }
 
 .hollyFranGrid img {
@@ -2250,8 +2250,8 @@ a {
 /* HOLLY AND FRAN CSS STARTS */
 .hfPageContainer {
     position: relative;
-    background: #9A5858 0% 0% no-repeat padding-box;
-    height: 330vw;
+    background: #e0cdcd 0% 0% no-repeat padding-box;
+    height: 350vw;
     width: 100%;
     margin-top: 1vw;
     overflow: hidden;
@@ -2262,21 +2262,21 @@ a {
     font-weight: 900;
     text-align: center;
     align-items: center;
-    margin-bottom: 40vw;
+    padding-top: 7vw;
     margin-left: 4vw;
     letter-spacing: .4vw;
 }
 
 .hollyFranTitle{
     font-size: 7vw;
-    color: #deb8b8;
+    color: #951717;;
     line-height: .1vw;
 }
 
 .gStory {
     position: relative;
     font-size: 6.5vw;
-    color: #deb8b8;
+    color: #951717;;
     line-height:.1vw;
 }
 
@@ -2306,7 +2306,7 @@ a {
 .hfExplanationTitle {
     font-family: "gigantic", sans-serif;
     font-weight: 900;
-    color: #290505;
+    color: #951717;
     font-size: 8vw;
     text-align: left;
     margin-left: 2vw;
@@ -2315,18 +2315,18 @@ a {
     font-family: "new-kansas", sans-serif;
     font-weight: 200;
     font-size: 3vw;
-    color:#290505;
+    color:#951717;;
     text-align: left;
     padding-left: 2vw;
 }
 .hfExplanationContainer {
     padding: 1.5vw;
-    margin-top: 20vw;
+    margin-top: 30vw;
     margin-left: 5vw;
     margin-right: 5vw ;
     margin-bottom: 0;
     border-width: .25vw;
     border-style: solid;
-    border-color: #290505;
+    border-color: #951717;
     border-radius: 25px;
 }
