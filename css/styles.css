@@ -1930,7 +1930,7 @@ a {
 .stuffPageContainer {
     position: relative;
     background: #9A5858 0% 0% no-repeat padding-box;
-    height: 700vw;
+    height: 400vw;
     width: 100%;
     margin-top: 2vw;
     overflow: hidden;
@@ -1942,14 +1942,14 @@ a {
     text-align: center;
     color: rgb(232, 218, 218);
     padding-top: 4vw;
-    line-height: 6.5vw;
+    line-height: 8vw;
 }
 
 .otherWord {
-    font-size: 7vw;
+    font-size: 9vw;
 }
 .projectsWord {
-    font-size: 4.5vw;
+    font-size: 6vw;
 }
 .artWord {
    margin-top: 10vw;
@@ -1999,6 +1999,7 @@ a {
 
 .joanGrid img {
     width: 27vw;
+    box-shadow: 3vw 4vw 4vw #00000029;
 }
 
 
@@ -2016,6 +2017,7 @@ a {
     margin-bottom: 2vw;
     margin-top: 5vw;
     width: 27vw;
+    box-shadow: 3vw 4vw 4vw #00000029;
 }
 
 .clioCaption {
@@ -2048,6 +2050,7 @@ a {
 
 .posterGrid img {
     height: 40vw;
+    box-shadow: 3vw 4vw 4vw #00000029;
 }
 
 .hollyFranContainer {
@@ -2245,26 +2248,85 @@ a {
     font-size: 11vw;
 }
 /* HOLLY AND FRAN CSS STARTS */
-
+.hfPageContainer {
+    position: relative;
+    background: #9A5858 0% 0% no-repeat padding-box;
+    height: 330vw;
+    width: 100%;
+    margin-top: 1vw;
+    overflow: hidden;
+}
 .hollyandFranGraphicStory {
     position: absolute;
     font-family: "gigantic", sans-serif;
     font-weight: 900;
     text-align: center;
     align-items: center;
-    padding-bottom: 10vw;
+    margin-bottom: 40vw;
     margin-left: 4vw;
+    letter-spacing: .4vw;
 }
 
 .hollyFranTitle{
     font-size: 7vw;
-    color: #290505;
+    color: #deb8b8;
     line-height: .1vw;
 }
 
 .gStory {
     position: relative;
     font-size: 6.5vw;
-    color: #290505;
+    color: #deb8b8;
     line-height:.1vw;
+}
+
+.hfCover {
+    display: inline-block;
+    height: 40vw;
+    margin-right: 30vw;
+    margin-top: 5vw;
+    box-shadow: 3vw 4vw 4vw #00000029;
+}
+.hfSpread {
+    display: inline-block;
+    height: 40vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vw;
+    box-shadow: 3vw 4vw 4vw #00000029;
+
+}
+.hfBack {
+    display: inline-block;
+    height: 40vw;
+    margin-left: 30vw;
+    margin-top: 3vw;
+    box-shadow: 3vw 4vw 4vw #00000029;
+}
+.hfExplanationTitle {
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    color: #290505;
+    font-size: 8vw;
+    text-align: left;
+    margin-left: 2vw;
+}
+.hfExplanation {
+    font-family: "new-kansas", sans-serif;
+    font-weight: 200;
+    font-size: 3vw;
+    color:#290505;
+    text-align: left;
+    padding-left: 2vw;
+}
+.hfExplanationContainer {
+    padding: 1.5vw;
+    margin-top: 20vw;
+    margin-left: 5vw;
+    margin-right: 5vw ;
+    margin-bottom: 0;
+    border-width: .25vw;
+    border-style: solid;
+    border-color: #290505;
+    border-radius: 25px;
 }
