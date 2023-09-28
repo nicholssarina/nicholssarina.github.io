@@ -2414,8 +2414,8 @@ a {
 }
 
 .boldLogo {
-    padding-top: 5vw;
-    width: 70vw;
+    padding-top: 20vw;
+    width: 90vw;
 }
 
 .boldLogoCaption {
@@ -2426,5 +2426,40 @@ a {
     font-weight: 200;
     text-align: center;
     line-height: .25vw;
-    padding-top: -400vw;
+    padding-top: 2vw;
+  
+}
+
+.boldTypeface {
+    padding-top: 10vw;
+    width: 70vw;
+}
+
+.boldTypeCaption {
+    position: relative;
+    font-family: "new-kansas",sans-serif;
+    color: black;
+    font-size: 2vw;
+    font-weight: 200;
+    text-align: center;
+    line-height: .25vw;
+    padding-top: 2vw;
+  
+}
+
+.boldComponents {
+    padding-top: 10vw;
+    width: 70vw;
+}
+
+.boldCompCaption {
+    position: relative;
+    font-family: "new-kansas",sans-serif;
+    color: black;
+    font-size: 2vw;
+    font-weight: 200;
+    text-align: center;
+    line-height: .25vw;
+    padding-top: 2vw;
+  
 }
