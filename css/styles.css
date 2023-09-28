@@ -2412,3 +2412,19 @@ a {
     font-size: 7vw;
     color: black;
 }
+
+.boldLogo {
+    padding-top: 5vw;
+    width: 70vw;
+}
+
+.boldLogoCaption {
+    position: relative;
+    font-family: "new-kansas",sans-serif;
+    color: black;
+    font-size: 2vw;
+    font-weight: 200;
+    text-align: center;
+    line-height: .25vw;
+    padding-top: -400vw;
+}
