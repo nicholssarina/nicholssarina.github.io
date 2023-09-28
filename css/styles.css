@@ -2330,3 +2330,85 @@ a {
     border-color: #951717;
     border-radius: 25px;
 }
+
+/* BBS CSS STARTS HERE */
+
+.bbsExplanationTitle {
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    color: black;
+    font-size: 8vw;
+    text-align: left;
+    margin-left: 2vw;
+}
+.bbsExplanation {
+    font-family: "new-kansas", sans-serif;
+    font-weight: 200;
+    font-size: 3vw;
+    color:black;
+    text-align: left;
+    padding-left: 2vw;
+}
+.bbsExplanationContainer {
+    padding: 1.5vw;
+    margin-top: 35vw;
+    margin-left: 5vw;
+    margin-right: 5vw ;
+    margin-bottom: 0;
+    border-width: .25vw;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+}
+.bbsPageContainer {
+    position: relative;
+    background: #EAD0AD 0% 0% no-repeat padding-box;
+    height: 350vw;
+    width: 100%;
+    margin-top: 1vw;
+    overflow: hidden;
+}
+.boldTitle {
+    position: absolute;
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 7vw;
+    letter-spacing: .2vw;
+    line-height: 8vw;
+}
+
+.boldOn{
+    font-size: 7vw;
+    color: black;
+
+}
+
+.bigScreen {
+    position: relative;
+    font-size: 7.6vw;
+    color: black;
+
+}
+.podcastTitle {
+    position: relative;
+    font-size: 9.5vw;
+    color: black;
+    line-height: 10vw;
+
+}
+.bbsLogoTitle {
+    position: absolute;
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 6vw;
+    letter-spacing: .2vw;
+    line-height: 8vw;
+    font-size: 7vw;
+    color: black;
+}
