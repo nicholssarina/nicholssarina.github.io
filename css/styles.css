@@ -2496,7 +2496,7 @@ a {
 .denPageContainer {
     position: relative;
     background: #e7d4ed 0% 0% no-repeat padding-box;
-    height: 400vw;
+    height: 375vw;
     width: 100%;
     margin-top: 1vw;
     overflow: hidden;
