@@ -2226,25 +2226,25 @@ a {
     cursor: pointer;
   }
 
-  .denContainer .overlayColor {
+  .denContainer .denOverlayColor {
     position: absolute;
     opacity: 0;
     transition: .5s ease;
     cursor: pointer;
     border-radius: 4vw;
-    background-color: rgb(154, 29, 29);
-    width: 85.9%;
-    height: 97%;
+    background-color: rgb(95, 18, 18);
+    width: 85.8%;
+    height: 97.1%;
     padding-left: 10vw;
     align-items: center;
   }
   
-  .denContainer:hover .overlayColor {
+  .denContainer:hover .denOverlayColor {
     position: absolute;
     opacity: .25;
     cursor: pointer;
   }
- .den {
+ .denStuff {
     font-size: 11vw;
 }
 /* HOLLY AND FRAN CSS STARTS */
