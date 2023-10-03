@@ -1796,91 +1796,11 @@ a {
 .aboutPageContainer {
     position: relative;
     background: #90828719 0% 0% no-repeat padding-box;
-    height: 200vw;
+    height: 180vw;
     width: 100%;
     margin-top: 2vw;
     overflow: hidden;
 }
- /* ABOUT CAROUSEL CSS*/
-
- .carousel {
-    width: auto;
-    margin: 3vw;
-    height: 52vw;
-    position: relative;
-    display: inline-block;
-    text-align: center;
-  }
-  
-  .carousel img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-height: 65vw;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-    border-radius: 2vw;
-    border: solid black .1vw;
-    padding: 1vw;
-  }
-
-  .carousel img.active {
-    opacity: 1;
-  }
-  
-  .carousel-nav button {
-    background: black;
-    border-radius: 50vw;
-    font-family: "new-kansas",sans-serif;
-    font-size: 4vw;
-    line-height: 4vw;
-    cursor: pointer;
-    letter-spacing: 0;
-    text-decoration: none;
-    border: none;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-  }
-  
-  .carousel-nav button:hover {
-    color: #EEEFEC;
-  }
-
-  .nextButton {
-    left: 30vw;
-    top: 25vw;
-    position: relative;
-  }
-
-  .prevButton {
-    position: relative;
-    right: 30vw;
-    top: 25.5vw;
-    justify-content: center;
-  }
-
-  @media (max-width: 600px) {
-    .carousel {
-        height: 90vw;
-        margin: 5vw;
-    }
-    .carousel img {
-        max-height: 90vw;
-    }
-
-    .nextButton {
-        left: 38vw;
-        top: 40vw;
-    }
-
-    .prevButton {
-        right: 38vw;
-        top: 40.5vw;
-    }
-  }
 
 /*Contact CSS*/
 .reachOut {
@@ -1893,9 +1813,10 @@ a {
 .contactContainer {
     position: relative;
     margin: 5vw;
-    padding-left: 3vw;
-    padding-right: 3vw;
-    padding-top: 3vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
     border-width: .25vw;
     border-style: solid;
     border-color: black;
