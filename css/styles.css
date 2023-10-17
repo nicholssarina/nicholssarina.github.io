@@ -1800,6 +1800,30 @@ a {
 
 /* STUFF CSS STARTS */
 
+.stuffWorkContainer {
+    display: block;
+    margin: 0;
+    width: 100%;
+    padding-bottom: 5vh;                                                                                                                                                                                                                                                                                        
+}
+
+.stuffWorkContainer img {
+    display: flex;
+    max-width: 100%;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+    border-radius: 4vw;
+}
+.stuffWorkContainer a {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    cursor: pointer;
+    margin: 0;
+}
 .stuffPageContainer {
     position: relative;
     background: #e7c9c9 0% 0% no-repeat padding-box;
@@ -2119,6 +2143,9 @@ a {
   }
  .denStuff {
     font-size: 11vw;
+}
+.artContainer {
+    padding-top: 10vh;
 }
 /* HOLLY AND FRAN CSS STARTS */
 .hfPageContainer {
