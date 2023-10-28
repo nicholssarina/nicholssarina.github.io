@@ -49,13 +49,16 @@ nav {
   
   @media (max-width: 600px) { 
     nav {
-        font-size: 2vw;
+        font-size: 1.1vw;
     }
     nav ul {
         position: relative;
-        padding-top: 18vw;
-        left: 48vw;
+        padding-top: 17.5vw;
+        left: -50vw;
         gap: 2vw;
+    }
+    ul {
+        padding: 0vw;
     }
   }
  nav ul {
@@ -66,7 +69,7 @@ nav {
     gap: 1vw;
     list-style: none;
     cursor: pointer;
-    bottom: 1.6vw;
+    bottom: 1vw;
     overflow: hidden;
  }
 a {
@@ -200,7 +203,8 @@ a:hover {
     font-family: "gigantic",sans-serif;
     position: relative;
     color: #951717B3;
-    font-size: 5vw;
+    font-size:3.4vw;
+    line-height: .1vw;
 }
 .nameSpotify {
     position: relative;
@@ -211,7 +215,8 @@ a:hover {
 .titleSpotify {
     font-family: "gigantic",sans-serif;
     position: relative;
-    font-size: 5vw;
+    font-size:3.4vw;
+    line-height: .1vw;
     color: #083613CC;
 }
 .nameModfi {
@@ -223,7 +228,8 @@ a:hover {
 .titleModfi {
     font-family: "gigantic",sans-serif;
     position: relative;
-    font-size: 5vw;
+    font-size:3.4vw;
+    line-height: .1vw;
     color: #F9D756;
 }
 .nameRitual {
@@ -235,7 +241,8 @@ a:hover {
 .titleRitual {
     font-family: "gigantic",sans-serif;
     position: relative;
-    font-size: 5vw;
+    font-size:3.4vw;
+    line-height: .1vw;
     color: #0F5E69CC;
 
 }
@@ -248,7 +255,8 @@ a:hover {
 .titleCOD {
     font-family: "gigantic",sans-serif;
     position: relative;
-    font-size: 5vw;
+    font-size:3.4vw;
+    line-height: .1vw;
     color: #4E0C32;
 }
 .nameZyr {
@@ -260,7 +268,8 @@ a:hover {
 .titleZyr {
     font-family: "gigantic",sans-serif;
     position: relative;
-    font-size: 5vw;
+    font-size:3.4vw;
+    line-height: .1vw;
     color: #865735;
 }
 
@@ -305,7 +314,14 @@ a:hover {
     display: block;
     margin: 0;
     width: 100%;
-    height: 260vh;                                                                                                                                                                                                                                                                                        
+    height: 360vh;                                                                                                                                                                                                                                                                                        
+}
+
+.workContainerDesign {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 300vh;                                                                                                                                                                                                                                                                                        
 }
 
 .workpic {
@@ -313,7 +329,7 @@ a:hover {
     height: auto;
 }
 
-.workContainer img {
+.workContainer img, .workContainerDesign img {
     display: flex;
     max-width: 100%;
     flex: 1;
@@ -323,7 +339,7 @@ a:hover {
     margin: 0;
     border-radius: 4vw;
 }
-.workContainer a {
+.workContainer a, .workContainerDesign a {
     width: 100%;
     display: flex;
     padding: 0;
@@ -336,12 +352,13 @@ a {
 }
 
   @media (max-width: 600px) {
-    .workContainer {
+    .workContainer, .workContainerDesign {
         padding-top: 3vw;
         position: relative;
         padding-left: 1vw;
         display: block;
         margin: auto;
+        height: 345vw;
     }
 
     .logoWorkGrid {
@@ -1803,7 +1820,7 @@ a {
 .stuffPageContainer {
     position: relative;
     background: #e7c9c9 0% 0% no-repeat padding-box;
-    height: 420vw;
+    height: 170vw;
     width: 100%;
     margin-top: 2vw;
     overflow: hidden;
