@@ -53,9 +53,10 @@ nav {
     }
     nav ul {
         position: relative;
-        padding-top: 17.5vw;
+        padding-top: -2.5vw;
         left: -50vw;
         gap: 2vw;
+        
     }
     ul {
         padding: 0vw;
@@ -69,7 +70,7 @@ nav {
     gap: 1vw;
     list-style: none;
     cursor: pointer;
-    bottom: 1vw;
+    bottom: 5vw;
     overflow: hidden;
  }
 a {
@@ -180,18 +181,19 @@ a:hover {
     position: relative;
     width: 40vw;
     padding-left: 4vw;
-    bottom: -8vw;
+    bottom: -7.5vw;
     
 }
 .nameWork {
     color: black;
-    font-size: 2.97vw;
+    font-size: 5vw;
+    line-height: 0.5vw;
 }
 .titleWork {
     position: relative;
     color: black;
-    font-size: 3.4vw;
-    line-height: .1vw;
+    font-size: 4.42vw;
+    line-height: 0vw;
 }
 
 .nameDiablo {
@@ -286,9 +288,9 @@ a:hover {
 }
 .workLogo img {
     position: relative;
-    height: 8vw;
-    left: 38vw;
-    bottom: 6vw;
+    height: 12vw;
+    left: 29vw;
+    bottom: 9vw;
 }
 
 .name1 {
