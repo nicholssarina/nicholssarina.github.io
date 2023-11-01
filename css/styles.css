@@ -2548,7 +2548,7 @@ a {
 .rioshiPageContainer {
     position: relative;
     background: #180B02 0% 0% no-repeat padding-box;
-    height: 230vw;
+    height: 420vw;
     width: 100%;
     margin-top: 1vw;
     overflow: hidden;
@@ -2599,72 +2599,20 @@ a {
     
 
 }
-.bbsLogoTitle {
-    position: absolute;
-    font-family: "gigantic", sans-serif;
-    font-weight: 900;
-    text-align: center;
-    align-items: center;
-    width: 100%;
-    padding-top: 6vw;
-    letter-spacing: .2vw;
-    line-height: 8vw;
-    font-size: 7vw;
-    color: black;
-}
 
-.boldLogo {
-    padding-top: 20vw;
-    width: 90vw;
-}
-
-.boldLogoCaption {
-    position: relative;
-    font-family: "new-kansas",sans-serif;
-    color: black;
-    font-size: 2vw;
-    font-weight: 200;
-    text-align: center;
-    line-height: .25vw;
-    padding-top: 2vw;
-  
-}
-
-.boldTypeface {
-    padding-top: 10vw;
-    width: 70vw;
-}
-
-.boldTypeCaption {
-    position: relative;
-    font-family: "new-kansas",sans-serif;
-    color: black;
-    font-size: 2vw;
-    font-weight: 200;
-    text-align: center;
-    line-height: .25vw;
-    padding-top: 2vw;
-  
-}
-
-.boldComponents {
-    padding-top: 10vw;
-    width: 70vw;
-}
-
-.boldCompCaption {
-    position: relative;
-    font-family: "new-kansas",sans-serif;
-    color: rgb(38, 5, 55);
-    font-size: 2vw;
-    font-weight: 200;
-    text-align: center;
-    line-height: .25vw;
-    padding-top: 2vw;
-  
-}
 
 .rioshiCans {
     margin-top: 5vw;
+    max-width: 100vw;
+}
+
+.rioshiRose {
+    margin-top: 5vw;
+    max-width: 100vw;
+}
+.rioshiLavender {
+    max-width: 100vw;
+}
+.rioshiBlossom {
     max-width: 100vw;
 }
