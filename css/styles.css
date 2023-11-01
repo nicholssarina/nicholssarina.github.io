@@ -199,79 +199,85 @@ a:hover {
 .nameDiablo {
     font-family: "gigantic",sans-serif;
     color: #951717;
-    font-size: 2.97vw;
+    font-size: 5vw;
+    line-height: 0.5vw;
 }
 .titleDiablo {
     font-family: "gigantic",sans-serif;
     position: relative;
     color: #951717B3;
-    font-size:3.4vw;
-    line-height: .1vw;
+    font-size: 4.42vw;
+    line-height: 0vw;
 }
 .nameSpotify {
     position: relative;
     font-family: "gigantic",sans-serif;
-    font-size: 2.97vw;
+    font-size: 5vw;
+    line-height: 0.5vw;
     color: #083613;
 }
 .titleSpotify {
     font-family: "gigantic",sans-serif;
     position: relative;
-    font-size:3.4vw;
-    line-height: .1vw;
+    font-size: 4.42vw;
+    line-height: 0vw;
     color: #083613CC;
 }
 .nameModfi {
     position: relative;
     font-family: "gigantic",sans-serif;
-    font-size: 2.97vw;
+    font-size: 5vw;
+    line-height: 0.5vw;
     color: #E8BD19;
 }
 .titleModfi {
     font-family: "gigantic",sans-serif;
     position: relative;
-    font-size:3.4vw;
-    line-height: .1vw;
+    font-size: 4.42vw;
+    line-height: 0vw;
     color: #F9D756;
 }
 .nameRitual {
     position: relative;
     font-family: "gigantic",sans-serif;
-    font-size: 2.97vw;
+    font-size: 5vw;
+    line-height: 0.5vw;
     color: #0F5E69;
 }
 .titleRitual {
     font-family: "gigantic",sans-serif;
     position: relative;
-    font-size:3.4vw;
-    line-height: .1vw;
+    font-size: 4.42vw;
+    line-height: 0vw;
     color: #0F5E69CC;
 
 }
 .nameCOD {
     position: relative;
     font-family: "gigantic",sans-serif;
-    font-size: 2.97vw;
+    font-size: 5vw;
+    line-height: 0.5vw;
     color: #4E0C32;
 }
 .titleCOD {
     font-family: "gigantic",sans-serif;
     position: relative;
-    font-size:3.4vw;
-    line-height: .1vw;
+    font-size: 4.42vw;
+    line-height: 0vw;
     color: #4E0C32;
 }
 .nameZyr {
     position: relative;
     font-family: "gigantic",sans-serif;
-    font-size: 2.97vw;
+    font-size: 5vw;
+    line-height: 0.5vw;
     color: #462208;
 }
 .titleZyr {
     font-family: "gigantic",sans-serif;
     position: relative;
-    font-size:3.4vw;
-    line-height: .1vw;
+    font-size: 4.42vw;
+    line-height: 0vw;
     color: #865735;
 }
 
