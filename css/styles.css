@@ -332,7 +332,7 @@ a:hover {
     height: 300vh;                                                                                                                                                                                                                                                                                        
 }
 
-.workpic {
+.workpic img{
     width: 200vw;
     height: auto;
 }
@@ -2083,7 +2083,7 @@ a {
     font-size: 8vw;
 }
 
-.denContainer {
+.rioshiContainer {
     position: relative;
     text-align: left;
     color: white;
@@ -2095,15 +2095,15 @@ a {
     padding-right: 2vw;
 }
 
-.denTitle {
+.rioshiTitle {
     position: absolute;
     font-family: "gigantic", sans-serif;
     font-style: normal;
     font-weight: 900;
     text-align: left;
     color: white;
-    line-height: 12vw;
-    bottom: 3vw;
+    line-height: 16vw;
+    bottom: 5vw;
     left: 4vw;
     letter-spacing: .3vw;
 
@@ -2119,12 +2119,12 @@ a {
     cursor: pointer;
   }
   
-  .denContainer:hover .overlay {
+  .rioshiContainer:hover .overlay {
     opacity: 1;
     cursor: pointer;
   }
 
-  .denContainer .denOverlayColor {
+  .rioshiContainer .rioshiOverlayColor {
     position: absolute;
     opacity: 0;
     transition: .5s ease;
@@ -2137,14 +2137,18 @@ a {
     align-items: center;
   }
   
-  .denContainer:hover .denOverlayColor {
+  .rioshiContainer:hover .rioshiOverlayColor {
     position: absolute;
     opacity: .25;
     cursor: pointer;
   }
- .denStuff {
+ .rioshiOne {
     font-size: 11vw;
 }
+.rioshiTwo {
+    font-size: 19vw;
+}
+
 .artContainer {
     padding-top: 3vh;
 }
@@ -2499,3 +2503,168 @@ a {
     padding-top: 15vw;
  }
 
+/* RIOSHI CSS BEGINS */
+.nameRioshi {
+    position: relative;
+    font-family: "gigantic",sans-serif;
+    font-size: 5vw;
+    line-height: 0.5vw;
+    color: #591E2C;
+}
+.titleRioshi {
+    font-family: "gigantic",sans-serif;
+    position: relative;
+    font-size: 4.42vw;
+    line-height: 0vw;
+    color: #AA667A;
+}
+.rioshiExplanationTitle {
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    color: #180B02;
+    font-size: 8vw;
+    text-align: left;
+    margin-left: 2vw;
+}
+.rioshiExplanation {
+    font-family: "new-kansas", sans-serif;
+    font-weight: 200;
+    font-size: 3vw;
+    color:#180B02;
+    text-align: left;
+    padding-left: 2vw;
+}
+.rioshiExplanationContainer {
+    padding: 1.5vw;
+    margin-top: 40vw;
+    margin-left: 5vw;
+    margin-right: 5vw ;
+    margin-bottom: 0;
+    border-width: .25vw;
+    border-style: solid;
+    border-color: #180B02;
+    border-radius: 25px;
+}
+.rioshiPageContainer {
+    position: relative;
+    background: #180B02 0% 0% no-repeat padding-box;
+    height: 230vw;
+    width: 100%;
+    margin-top: 1vw;
+    overflow: hidden;
+    z-index: -2;
+}
+.rioshiPageTitle {
+    position: absolute;
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 7vw;
+    letter-spacing: .2vw;
+    line-height: 8vw;
+    
+}
+.rioshiHeaderImage {
+    left: 0;
+    position: absolute;
+    justify-content: center;
+    max-width: 160vw;
+    max-height: 200vh;
+    overflow: hidden;
+    z-index: -1;
+    object-fit: cover;
+
+
+}
+.rioshiHead{
+    font-size: 10vw;
+    color: #180B02;
+    line-height: 12vw;
+
+}
+
+.teaFor {
+    position: relative;
+    font-size: 8.15vw;
+    color: #180B02;
+
+}
+.everybody {
+    position: relative;
+    font-size: 5.6vw;
+    color: #180B02;
+    line-height: 7.5vw;
+    
+
+}
+.bbsLogoTitle {
+    position: absolute;
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 6vw;
+    letter-spacing: .2vw;
+    line-height: 8vw;
+    font-size: 7vw;
+    color: black;
+}
+
+.boldLogo {
+    padding-top: 20vw;
+    width: 90vw;
+}
+
+.boldLogoCaption {
+    position: relative;
+    font-family: "new-kansas",sans-serif;
+    color: black;
+    font-size: 2vw;
+    font-weight: 200;
+    text-align: center;
+    line-height: .25vw;
+    padding-top: 2vw;
+  
+}
+
+.boldTypeface {
+    padding-top: 10vw;
+    width: 70vw;
+}
+
+.boldTypeCaption {
+    position: relative;
+    font-family: "new-kansas",sans-serif;
+    color: black;
+    font-size: 2vw;
+    font-weight: 200;
+    text-align: center;
+    line-height: .25vw;
+    padding-top: 2vw;
+  
+}
+
+.boldComponents {
+    padding-top: 10vw;
+    width: 70vw;
+}
+
+.boldCompCaption {
+    position: relative;
+    font-family: "new-kansas",sans-serif;
+    color: rgb(38, 5, 55);
+    font-size: 2vw;
+    font-weight: 200;
+    text-align: center;
+    line-height: .25vw;
+    padding-top: 2vw;
+  
+}
+
+.rioshiCans {
+    margin-top: 5vw;
+    max-width: 100vw;
+}
