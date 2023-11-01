@@ -209,6 +209,20 @@ a:hover {
     font-size: 4.42vw;
     line-height: 0vw;
 }
+
+.nameBBS {
+    font-family: "gigantic",sans-serif;
+    color: #622506;
+    font-size: 5vw;
+    line-height: 0.5vw;
+}
+.titleBBS {
+    font-family: "gigantic",sans-serif;
+    position: relative;
+    color: #ac5a31;
+    font-size: 4.42vw;
+    line-height: 0vw;
+}
 .nameSpotify {
     position: relative;
     font-family: "gigantic",sans-serif;
@@ -2241,7 +2255,7 @@ a {
 .bbsExplanationTitle {
     font-family: "gigantic", sans-serif;
     font-weight: 900;
-    color: black;
+    color: #622506;
     font-size: 8vw;
     text-align: left;
     margin-left: 2vw;
@@ -2250,7 +2264,7 @@ a {
     font-family: "new-kansas", sans-serif;
     font-weight: 200;
     font-size: 3vw;
-    color:black;
+    color:#622506;
     text-align: left;
     padding-left: 2vw;
 }
@@ -2262,12 +2276,12 @@ a {
     margin-bottom: 0;
     border-width: .25vw;
     border-style: solid;
-    border-color: black;
+    border-color: #622506;
     border-radius: 25px;
 }
 .bbsPageContainer {
     position: relative;
-    background: #EAD0AD 0% 0% no-repeat padding-box;
+    background: #edb396 0% 0% no-repeat padding-box;
     height: 230vw;
     width: 100%;
     margin-top: 1vw;
@@ -2287,20 +2301,21 @@ a {
 
 .boldOn{
     font-size: 7vw;
-    color: black;
+    color: #622506;
 
 }
 
 .bigScreen {
     position: relative;
     font-size: 7.6vw;
-    color: black;
+    color: #622506;
+
 
 }
 .podcastTitle {
     position: relative;
     font-size: 9.5vw;
-    color: black;
+    color: #622506;
     line-height: 10vw;
 
 }
@@ -2315,7 +2330,8 @@ a {
     letter-spacing: .2vw;
     line-height: 8vw;
     font-size: 7vw;
-    color: black;
+    color: #622506;
+
 }
 
 .boldLogo {
@@ -2326,7 +2342,7 @@ a {
 .boldLogoCaption {
     position: relative;
     font-family: "new-kansas",sans-serif;
-    color: black;
+    color: #622506;
     font-size: 2vw;
     font-weight: 200;
     text-align: center;
@@ -2343,7 +2359,7 @@ a {
 .boldTypeCaption {
     position: relative;
     font-family: "new-kansas",sans-serif;
-    color: black;
+    color: #622506;
     font-size: 2vw;
     font-weight: 200;
     text-align: center;
@@ -2360,7 +2376,7 @@ a {
 .boldCompCaption {
     position: relative;
     font-family: "new-kansas",sans-serif;
-    color: rgb(38, 5, 55);
+    color: #622506;
     font-size: 2vw;
     font-weight: 200;
     text-align: center;
@@ -2547,8 +2563,8 @@ a {
 }
 .rioshiPageContainer {
     position: relative;
-    background: #180B02 0% 0% no-repeat padding-box;
-    height: 420vw;
+    background: #ecd5c4 0% 0% no-repeat padding-box;
+    height: 400vw;
     width: 100%;
     margin-top: 1vw;
     overflow: hidden;
@@ -2573,6 +2589,7 @@ a {
     max-width: 160vw;
     max-height: 200vh;
     overflow: hidden;
+    opacity: .8;
     z-index: -1;
     object-fit: cover;
 
@@ -2607,12 +2624,12 @@ a {
 }
 
 .rioshiRose {
-    margin-top: 5vw;
-    max-width: 100vw;
+    margin: 0;
+    width: 100vw;
 }
 .rioshiLavender {
-    max-width: 100vw;
+    width: 100vw;
 }
 .rioshiBlossom {
-    max-width: 100vw;
+    width: 100vw;
 }
