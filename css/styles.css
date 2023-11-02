@@ -346,7 +346,7 @@ a:hover {
     height: 300vh;                                                                                                                                                                                                                                                                                        
 }
 
-.workpic img{
+.workpic {
     width: 200vw;
     height: auto;
 }
