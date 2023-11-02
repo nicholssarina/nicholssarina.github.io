@@ -53,20 +53,19 @@ nav {
     }
     nav ul {
         position: relative;
-        padding-top: -2.5vw;
-        left: -50vw;
+        display: flex;
         gap: 2vw;
+        padding-right: 3vw;
+        margin-block-start: 22.5vw;
+        margin-inline-start: -10vw;
         
-    }
-    ul {
-        padding: 0vw;
     }
   }
  nav ul {
     position: relative;
     display: flex;
     margin-right: 1vw;
-    left: 59vw;
+    left: 57vw;
     gap: 1vw;
     list-style: none;
     cursor: pointer;
@@ -143,29 +142,6 @@ a:hover {
     display: none;
 }
 
-    @media (max-width: 600px) {
-        .homepageBody {
-            background: radial-gradient( #6CD087, #3CD1CC,  #6B3DC3);
-            opacity: 1;
-            text-align: center;
-            overflow-x: hidden;
-            margin: 0;
-            overflow: hidden;
-            height: 220vw;
-        }
-        .homepageNav ul 
-        {
-            padding-top: 80vw;
-        }
-
-        .homeContainer {
-            height: 220vw;
-        }
-
-        .actualLogo {
-            padding-bottom: 68vw;
-        }
-    }
 .name {
     color: white;
     font-size: 6vw;
@@ -375,7 +351,7 @@ a {
 
   @media (max-width: 600px) {
     .workContainer, .workContainerDesign {
-        padding-top: 3vw;
+        padding-top: 6vw;
         position: relative;
         padding-left: 1vw;
         display: block;
@@ -385,7 +361,7 @@ a {
 
     .logoWorkGrid {
         position: absolute;
-        top: 12vw;
+        top: 8vw;
     }
  }
 
