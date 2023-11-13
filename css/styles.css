@@ -1445,6 +1445,7 @@ a {
     overflow: hidden;
     padding-bottom: 20vw;
     overflow-x: hidden;
+    z-index: 1;
 }
 .safezonesTitle {
     font-family: "gigantic",sans-serif;
@@ -1454,29 +1455,33 @@ a {
     line-height: 12vw;
 }
 .callofduty {
+    position: relative;
     font-size: 9vw;
     line-height: 10vw;
+    z-index: 3;
 
 }
 .warZone {
     position: relative;
     font-size: 12vw;
-    z-index: 2;
+    z-index: 3;
 }
 
 .safeZones {
     position: relative;
     font-size: 10vw;
-    z-index: 2;
+    z-index: 3;
 }
 
 .codHeaderImage {
     position: relative;
     width: 100%;
     height: 100%;
-    margin-top: -6.5vw;
+    margin-top: -22.4vw;
     opacity: .5;
     bottom: 13vw;
+    z-index: 2;
+    
 }
 .oneClubWinnerGoldContainer{
     position: relative;
