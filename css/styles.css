@@ -1507,13 +1507,13 @@ a {
     padding-left: 3vw;
     padding-right: 3vw;
     padding-top: 6vw;
-    padding-bottom: 6vw;
     border-width: .25vw;
     border-style: solid;
     border-color: #4E0C32;
     border-radius: 25px;
     bottom: 13vw;
 }
+
 .safezonesExplanationTitle {
     position: relative;
     font-family: "gigantic", sans-serif;
@@ -1531,9 +1531,10 @@ a {
     font-size: 3vw;
     color: #4E0C32;
     text-align: left;
-    padding-left: 2vw;
+    padding: 2vw;
 }
 .casestudyCOD {
+    padding-top: 10vw;
     position: relative;
     font-family: "gigantic", sans-serif;
     font-weight: 900;
@@ -1547,6 +1548,60 @@ a {
 .codVideoContainer video{
     position: relative;
     bottom: 13vw;
+}
+.safezonesAdTitle {
+    position: relative;
+    font-family: "gigantic",sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 10vw;
+    line-height: 10.5vw;
+    color: #4E0C32;
+    text-align: center;
+    bottom: 5vw;
+}
+.safezonesadone {
+    position: relative;
+    margin: 2vw;
+    width: 80vw;
+    border-radius: 2vw;
+    box-shadow: 3vw 4vw 4vw #00000029;
+}
+.safezonesAdGrid img {
+    height: 50vw;
+    border-radius: 2vw;
+    box-shadow: 3vw 4vw 4vw #00000029;
+}
+.safezonesAdGrid {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 3vw;
+    width: 100vw;
+    height: 44vw;
+    gap: 2vw;
+    padding-bottom: 30vw;
+}
+
+.safezonesSituTitle {
+    position: relative;
+    font-family: "gigantic",sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 10vw;
+    line-height: 10.5vw;
+    color: #4E0C32;
+    text-align: center;
+    bottom: 15vw;
+}
+
+.safezonesSitu {
+    position: relative;
+    margin: 1.5vw;
+    width: 80vw;
+    border-radius: 2vw;
+    box-shadow: 3vw 4vw 4vw #00000029;
+    bottom: 10vw;
 }
 
 /* ZYR CSS STARTS*/
